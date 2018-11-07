@@ -9,13 +9,16 @@ function start(route, handle) {
 		var pathname = url.parse(request.url).pathname;
 		console.log("Request for " + pathname + " received.");
 		request.setEncoding("utf8");
+		var lintCount = 0;
 		request.addListener("data", function(postDataChunk) {
 			postData += postDataChunk;
 			console.log("Received POST data chunk '"+
 			postDataChunk + "'.");
+			lintCount++;
 		});
 		request.addListener("end", function() {
 			route(handle, pathname, response, postData);
+			console.log("\n\r\n\r\n\r No. times data called : " + lintCount);
 		});
 
 	}
