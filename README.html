@@ -1,0 +1,1597 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style>@charset "UTF-8";@import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css';code{color:#c7254e;background-color:#f9f2f4;border-radius:4px}code,kbd{padding:2px 4px}kbd{color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)}kbd kbd{padding:0;font-size:100%;box-shadow:none}pre{display:block;margin:0 0 10px;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}table{background-color:transparent}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th{padding:8px;line-height:1.4285714;border-top:1px solid #ddd}.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.4285714;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered,.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th{background-color:#f5f5f5}.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th{background-color:#e8e8e8}.table>thead>tr>td.success,.table>thead>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th{background-color:#dff0d8}.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover,.table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr.success:hover>th{background-color:#d0e9c6}.table>thead>tr>td.info,.table>thead>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th{background-color:#d9edf7}.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover,.table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr.info:hover>th{background-color:#c4e3f3}.table>thead>tr>td.warning,.table>thead>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th{background-color:#fcf8e3}.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover,.table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr.warning:hover>th{background-color:#faf2cc}.table>thead>tr>td.danger,.table>thead>tr>th.danger,.table>thead>tr.danger>td,.table>thead>tr.danger>th,.table>tbody>tr>td.danger,.table>tbody>tr>th.danger,.table>tbody>tr.danger>td,.table>tbody>tr.danger>th,.table>tfoot>tr>td.danger,.table>tfoot>tr>th.danger,.table>tfoot>tr.danger>td,.table>tfoot>tr.danger>th{background-color:#f2dede}.table-hover>tbody>tr>td.danger:hover,.table-hover>tbody>tr>th.danger:hover,.table-hover>tbody>tr.danger:hover>td,.table-hover>tbody>tr:hover>.danger,.table-hover>tbody>tr.danger:hover>th{background-color:#ebcccc}fieldset{border:0;min-width:0}legend{display:block;width:100%;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type="radio"],input[type="checkbox"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}input[type="file"]{display:block}input[type="range"]{display:block;width:100%}select[multiple],select[size]{height:auto}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}output{padding-top:7px}output,.form-control{display:block;font-size:14px;line-height:1.4285714;color:#555}.form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.form-control::-webkit-input-placeholder{color:#777}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee;opacity:1}textarea.form-control{height:auto}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:34px;line-height:1.4285714 \0}input[type="date"].input-sm,.form-horizontal .form-group-sm input[type="date"].form-control,.input-group-sm>input[type="date"].form-control,.input-group-sm>input[type="date"].input-group-addon,.input-group-sm>.input-group-btn>input[type="date"].btn,input[type="time"].input-sm,.form-horizontal .form-group-sm input[type="time"].form-control,.input-group-sm>input[type="time"].form-control,.input-group-sm>input[type="time"].input-group-addon,.input-group-sm>.input-group-btn>input[type="time"].btn,input[type="datetime-local"].input-sm,.form-horizontal .form-group-sm input[type="datetime-local"].form-control,.input-group-sm>input[type="datetime-local"].form-control,.input-group-sm>input[type="datetime-local"].input-group-addon,.input-group-sm>.input-group-btn>input[type="datetime-local"].btn,input[type="month"].input-sm,.form-horizontal .form-group-sm input[type="month"].form-control,.input-group-sm>input[type="month"].form-control,.input-group-sm>input[type="month"].input-group-addon,.input-group-sm>.input-group-btn>input[type="month"].btn{line-height:30px}input[type="date"].input-lg,.form-horizontal .form-group-lg input[type="date"].form-control,.input-group-lg>input[type="date"].form-control,.input-group-lg>input[type="date"].input-group-addon,.input-group-lg>.input-group-btn>input[type="date"].btn,input[type="time"].input-lg,.form-horizontal .form-group-lg input[type="time"].form-control,.input-group-lg>input[type="time"].form-control,.input-group-lg>input[type="time"].input-group-addon,.input-group-lg>.input-group-btn>input[type="time"].btn,input[type="datetime-local"].input-lg,.form-horizontal .form-group-lg input[type="datetime-local"].form-control,.input-group-lg>input[type="datetime-local"].form-control,.input-group-lg>input[type="datetime-local"].input-group-addon,.input-group-lg>.input-group-btn>input[type="datetime-local"].btn,input[type="month"].input-lg,.form-horizontal .form-group-lg input[type="month"].form-control,.input-group-lg>input[type="month"].form-control,.input-group-lg>input[type="month"].input-group-addon,.input-group-lg>.input-group-btn>input[type="month"].btn{line-height:46px}.form-group{margin-bottom:15px}.radio,.checkbox{position:relative;display:block;min-height:20px;margin-top:10px;margin-bottom:10px}.radio label,.checkbox label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{position:absolute;margin-left:-20px;margin-top:4px \9}.radio+.radio,.checkbox+.checkbox{margin-top:-5px}.radio-inline,.checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;vertical-align:middle;font-weight:400;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"].disabled,fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline,.radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}.form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}.form-control-static.input-lg,.form-horizontal .form-group-lg .form-control-static.form-control,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.form-control-static.input-sm,.form-horizontal .form-group-sm .form-control-static.form-control,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn{padding-left:0;padding-right:0}.input-sm,.form-horizontal .form-group-sm .form-control,.input-group-sm>.form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.input-group-sm>.input-group-addon{height:30px;line-height:1.5}.input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}select.input-sm,.form-horizontal .form-group-sm select.form-control,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn{height:30px;line-height:30px}textarea.input-sm,.form-horizontal .form-group-sm textarea.form-control,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,select[multiple].input-sm,.form-horizontal .form-group-sm select[multiple].form-control,.input-group-sm>select[multiple].form-control,.input-group-sm>select[multiple].input-group-addon,.input-group-sm>.input-group-btn>select[multiple].btn{height:auto}.input-lg,.form-horizontal .form-group-lg .form-control,.input-group-lg>.form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.input-group-lg>.input-group-addon{height:46px;line-height:1.33}.input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}select.input-lg,.form-horizontal .form-group-lg select.form-control,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn{height:46px;line-height:46px}textarea.input-lg,.form-horizontal .form-group-lg textarea.form-control,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,select[multiple].input-lg,.form-horizontal .form-group-lg select[multiple].form-control,.input-group-lg>select[multiple].form-control,.input-group-lg>select[multiple].input-group-addon,.input-group-lg>.input-group-btn>select[multiple].btn{height:auto}.has-feedback{position:relative}.has-feedback .form-control{padding-right:42.5px}.form-control-feedback{position:absolute;top:25px;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center}.input-lg+.form-control-feedback,.form-horizontal .form-group-lg .form-control+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback{width:46px;height:46px;line-height:46px}.input-sm+.form-control-feedback,.form-horizontal .form-group-sm .form-control+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback{width:30px;height:30px;line-height:30px}.has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline{color:#3c763d}.has-success .form-control{border-color:#3c763d;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-success .form-control:focus{border-color:#2b542c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168}.has-success .input-group-addon{color:#3c763d;border-color:#3c763d;background-color:#dff0d8}.has-success .form-control-feedback{color:#3c763d}.has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline{color:#8a6d3b}.has-warning .form-control{border-color:#8a6d3b;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-warning .form-control:focus{border-color:#66512c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b}.has-warning .input-group-addon{color:#8a6d3b;border-color:#8a6d3b;background-color:#fcf8e3}.has-warning .form-control-feedback{color:#8a6d3b}.has-error .help-block,.has-error .control-label,.has-error .radio,.has-error .checkbox,.has-error .radio-inline,.has-error .checkbox-inline{color:#a94442}.has-error .form-control{border-color:#a94442;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-error .form-control:focus{border-color:#843534;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483}.has-error .input-group-addon{color:#a94442;border-color:#a94442;background-color:#f2dede}.has-error .form-control-feedback{color:#a94442}.has-feedback label.sr-only~.form-control-feedback{top:0}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}.form-horizontal .radio,.form-horizontal .checkbox,.form-horizontal .radio-inline,.form-horizontal .checkbox-inline{margin-top:0;margin-bottom:0;padding-top:7px}.form-horizontal .radio,.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}.form-horizontal .form-group:before{content:" ";display:table}.form-horizontal .form-group:after{content:" ";display:table;clear:both}.form-horizontal .has-feedback .form-control-feedback{top:0;right:15px}.btn{display:inline-block;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:focus,.btn:active:focus,.btn.active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:hover,.btn:focus{color:#333;text-decoration:none}.btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}.btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#3071a9;border-color:#285e8e}.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary.active{background-color:#428bca;border-color:#357ebd}.btn-primary .badge{color:#428bca;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{color:#fff;background-color:#449d44;border-color:#398439}.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}.btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]:active,.btn-success[disabled].active,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success:hover,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{color:#fff;background-color:#31b0d5;border-color:#269abc}.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}.btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]:active,.btn-info[disabled].active,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;border-color:#d58512}.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}.btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]:active,.btn-warning[disabled].active,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{background-image:none}.btn-danger.disabled,.btn-danger.disabled:hover,.btn-danger.disabled:focus,.btn-danger.disabled:active,.btn-danger.disabled.active,.btn-danger[disabled],.btn-danger[disabled]:hover,.btn-danger[disabled]:focus,.btn-danger[disabled]:active,.btn-danger[disabled].active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#428bca;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}.btn-link:hover,.btn-link:focus{color:#2a6496;text-decoration:underline;background-color:transparent}.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px}.btn-sm,.btn-xs{font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px}.btn-block{display:block;width:100%}.btn-block+.btn-block{margin-top:5px}input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}.fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition:height .35s ease;transition:height .35s ease}.input-group{position:relative;display:table;border-collapse:separate}.input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}.input-group-addon{white-space:nowrap}.input-group-addon,.input-group-btn{width:1%;vertical-align:middle}.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}.input-group-addon.input-sm,.form-horizontal .form-group-sm .input-group-addon.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn{padding:5px 10px;font-size:12px;border-radius:3px}.input-group-addon.input-lg,.form-horizontal .form-group-lg .input-group-addon.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn{padding:10px 16px;font-size:18px;border-radius:6px}.input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-addon:first-child{border-right:0}.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{border-bottom-left-radius:0;border-top-left-radius:0}.input-group-addon:last-child{border-left:0}.input-group-btn{font-size:0;white-space:nowrap}.input-group-btn,.input-group-btn>.btn{position:relative}.input-group-btn>.btn+.btn{margin-left:-1px}.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2}.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group{margin-right:-1px}.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group{margin-left:-1px}.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;line-height:1.4285714;text-decoration:none;color:#428bca;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>a:focus,.pagination>li>span:hover,.pagination>li>span:focus{color:#2a6496;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:hover,.pagination>.active>a:focus,.pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus{z-index:2;color:#fff;background-color:#428bca;border-color:#428bca;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#777;background-color:#fff;border-color:#ddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal-open,.modal{overflow:hidden}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{-webkit-transform:translate3d(0,-25%,0);transform:translate3d(0,-25%,0);-webkit-transition:-webkit-transform .3s ease-out;transition:transform .3s ease-out;transition:transform .3s ease-out,-webkit-transform .3s ease-out}.modal.in .modal-dialog{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,.5);background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.4285714px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.4285714}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496;-webkit-text-size-adjust:none}.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-doctype,.hljs-pi,.lisp .hljs-string,.hljs-javadoc{color:#586e75}.hljs-keyword,.hljs-winutils,.method,.hljs-addition,.css .hljs-tag,.hljs-request,.hljs-status,.nginx .hljs-title{color:#859900}.hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url{color:#2aa198}.hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function{color:#268bd2}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference{color:#b58900}.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#073642}*,*:before,*:after{box-sizing:border-box}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}images{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd{font-size:1em}code,kbd,pre,samp{font-family:monospace,monospace}samp{font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;margin-right:5px}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}.debug{background-color:#ffc0cb!important}.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ir{background-color:transparent;border:0;overflow:hidden}.ir::before{content:'';display:block;height:150%;width:0}html{font-size:.875em;background:#fff;color:#373D49}html,body{font-family:Georgia,Cambria,serif;height:100%}body{font-size:1rem;font-weight:400;line-height:2rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}li{-webkit-font-feature-settings:'kern' 1,'onum' 1,'liga' 1;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-left:1rem}li>ul,li>ol{margin-bottom:0}p{padding-top:.66001rem;-webkit-font-feature-settings:'kern' 1,'onum' 1,'liga' 1;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-top:0}p,pre{margin-bottom:1.33999rem}pre{font-size:1rem;padding:.66001rem 9.5px 9.5px;line-height:2rem;background:-webkit-linear-gradient(top,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background:linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background-size:100% 4rem;border-color:#D3DAEA}blockquote{margin:0}blockquote p{font-size:1rem;margin-bottom:.33999rem;font-style:italic;padding:.66001rem 1rem 1rem;border-left:3px solid #A0AABF}th,td{padding:12px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-style:normal;font-weight:600;margin-top:0}h1{line-height:3rem;font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h2,h3{line-height:3rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}a{cursor:pointer;color:#35D7BB;text-decoration:none}a:hover,a:focus{border-bottom-color:#35D7BB;color:#dff9f4}img{height:auto;max-width:100%}.g{display:block}.g:after{clear:both;content:'';display:table}.g-b{float:left;margin:0;width:100%}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--center{display:block;float:none;margin:0 auto}.g-b--right{float:right}.g-b--1of1{width:100%}.g-b--1of2,.g-b--2of4,.g-b--3of6,.g-b--4of8,.g-b--5of10,.g-b--6of12{width:50%}.g-b--1of3,.g-b--2of6,.g-b--4of12{width:33.333%}.g-b--2of3,.g-b--4of6,.g-b--8of12{width:66.666%}.g-b--1of4,.g-b--2of8,.g-b--3of12{width:25%}.g-b--3of4,.g-b--6of8,.g-b--9of12{width:75%}.g-b--1of5,.g-b--2of10{width:20%}.g-b--2of5,.g-b--4of10{width:40%}.g-b--3of5,.g-b--6of10{width:60%}.g-b--4of5,.g-b--8of10{width:80%}.g-b--1of6,.g-b--2of12{width:16.666%}.g-b--5of6,.g-b--10of12{width:83.333%}.g-b--1of8{width:12.5%}.g-b--3of8{width:37.5%}.g-b--5of8{width:62.5%}.g-b--7of8{width:87.5%}.g-b--1of10{width:10%}.g-b--3of10{width:30%}.g-b--7of10{width:70%}.g-b--9of10{width:90%}.g-b--1of12{width:8.333%}.g-b--5of12{width:41.666%}.g-b--7of12{width:58.333%}.g-b--11of12{width:91.666%}.g-b--push--1of1{margin-left:100%}.g-b--push--1of2,.g-b--push--2of4,.g-b--push--3of6,.g-b--push--4of8,.g-b--push--5of10,.g-b--push--6of12{margin-left:50%}.g-b--push--1of3,.g-b--push--2of6,.g-b--push--4of12{margin-left:33.333%}.g-b--push--2of3,.g-b--push--4of6,.g-b--push--8of12{margin-left:66.666%}.g-b--push--1of4,.g-b--push--2of8,.g-b--push--3of12{margin-left:25%}.g-b--push--3of4,.g-b--push--6of8,.g-b--push--9of12{margin-left:75%}.g-b--push--1of5,.g-b--push--2of10{margin-left:20%}.g-b--push--2of5,.g-b--push--4of10{margin-left:40%}.g-b--push--3of5,.g-b--push--6of10{margin-left:60%}.g-b--push--4of5,.g-b--push--8of10{margin-left:80%}.g-b--push--1of6,.g-b--push--2of12{margin-left:16.666%}.g-b--push--5of6,.g-b--push--10of12{margin-left:83.333%}.g-b--push--1of8{margin-left:12.5%}.g-b--push--3of8{margin-left:37.5%}.g-b--push--5of8{margin-left:62.5%}.g-b--push--7of8{margin-left:87.5%}.g-b--push--1of10{margin-left:10%}.g-b--push--3of10{margin-left:30%}.g-b--push--7of10{margin-left:70%}.g-b--push--9of10{margin-left:90%}.g-b--push--1of12{margin-left:8.333%}.g-b--push--5of12{margin-left:41.666%}.g-b--push--7of12{margin-left:58.333%}.g-b--push--11of12{margin-left:91.666%}.g-b--pull--1of1{margin-right:100%}.g-b--pull--1of2,.g-b--pull--2of4,.g-b--pull--3of6,.g-b--pull--4of8,.g-b--pull--5of10,.g-b--pull--6of12{margin-right:50%}.g-b--pull--1of3,.g-b--pull--2of6,.g-b--pull--4of12{margin-right:33.333%}.g-b--pull--2of3,.g-b--pull--4of6,.g-b--pull--8of12{margin-right:66.666%}.g-b--pull--1of4,.g-b--pull--2of8,.g-b--pull--3of12{margin-right:25%}.g-b--pull--3of4,.g-b--pull--6of8,.g-b--pull--9of12{margin-right:75%}.g-b--pull--1of5,.g-b--pull--2of10{margin-right:20%}.g-b--pull--2of5,.g-b--pull--4of10{margin-right:40%}.g-b--pull--3of5,.g-b--pull--6of10{margin-right:60%}.g-b--pull--4of5,.g-b--pull--8of10{margin-right:80%}.g-b--pull--1of6,.g-b--pull--2of12{margin-right:16.666%}.g-b--pull--5of6,.g-b--pull--10of12{margin-right:83.333%}.g-b--pull--1of8{margin-right:12.5%}.g-b--pull--3of8{margin-right:37.5%}.g-b--pull--5of8{margin-right:62.5%}.g-b--pull--7of8{margin-right:87.5%}.g-b--pull--1of10{margin-right:10%}.g-b--pull--3of10{margin-right:30%}.g-b--pull--7of10{margin-right:70%}.g-b--pull--9of10{margin-right:90%}.g-b--pull--1of12{margin-right:8.333%}.g-b--pull--5of12{margin-right:41.666%}.g-b--pull--7of12{margin-right:58.333%}.g-b--pull--11of12{margin-right:91.666%}.splashscreen{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#373D49;z-index:22}.splashscreen-dillinger{width:260px;height:auto;display:block;margin:0 auto;padding-bottom:3rem}.splashscreen p{font-size:1.25rem;padding-top:.56251rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;text-align:center;max-width:500px;margin:0 auto;color:#FFF}.sp-center{position:relative;-webkit-transform:translateY(-50%);transform:translateY(-50%);top:50%}.open-menu>.wrapper{overflow-x:hidden}.page{margin:0 auto;position:relative;top:0;left:0;width:100%;height:100%;z-index:2;-webkit-transition:all .25s ease-in-out;transition:all .25s ease-in-out;background-color:#fff;padding-top:51px;will-change:left}.open-menu .page{left:270px}.title{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;padding-left:16px;padding-right:16px;margin-top:1rem}.split-preview .title{padding-left:0}.title-document{line-height:1rem;font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem;font-weight:400;font-family:"Ubuntu Mono",Monaco;color:#373D49;padding-left:16px;padding-right:16px;width:80%;min-width:300px;outline:0;border:none}.icon{display:block;margin:0 auto;width:36px;height:36px;border-radius:3px;text-align:center}.icon svg{display:inline-block;margin-left:auto;margin-right:auto}.icon-preview{background-color:#373D49;line-height:40px}.icon-preview svg{width:19px;height:12px}.icon-settings{background-color:#373D49;line-height:44px}.icon-settings svg{width:18px;height:18px}.icon-link{width:16px;height:16px;line-height:1;margin-right:24px;text-align:right}.navbar{background-color:#373D49;height:51px;width:100%;position:fixed;top:0;left:0;z-index:6;-webkit-transition:all .25s ease-in-out;transition:all .25s ease-in-out;will-change:left}.navbar:after{content:"";display:table;clear:both}.open-menu .navbar{left:270px}.navbar-brand{float:left;margin:0 0 0 24px;padding:0;line-height:42px}.navbar-brand svg{width:85px;height:11px}.nav-left{float:left}.nav-right{float:right}.nav-sidebar{width:100%}.menu{list-style:none;margin:0;padding:0}.menu a{border:0;color:#A0AABF;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;outline:none;text-transform:uppercase}.menu a:hover{color:#35D7BB}.menu .menu-item{border:0;display:none;float:left;margin:0;position:relative}.menu .menu-item>a{display:block;font-size:12px;height:51px;letter-spacing:1px;line-height:51px;padding:0 24px}.menu .menu-item--settings,.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar,.menu .menu-item--link-unlink.in-sidebar,.menu .menu-item--documents.in-sidebar{display:block}.menu .menu-item--documents{padding-bottom:1rem}.menu .menu-item.open>a{background-color:#1D212A}.menu .menu-item-icon>a{height:auto;padding:0}.menu .menu-item-icon:hover>a{background-color:transparent}.menu .menu-link.open i{background-color:#1D212A}.menu .menu-link.open g{fill:#35D7BB}.menu .menu-link-preview,.menu .menu-link-settings{margin-top:8px;width:51px}.menu-sidebar{width:100%}.menu-sidebar .menu-item{float:none;margin-bottom:1px;width:100%}.menu-sidebar .menu-item.open>a{background-color:#373D49}.menu-sidebar .open .caret{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.menu-sidebar>.menu-item:hover .dropdown a,.menu-sidebar>.menu-item:hover .settings a{background-color:transparent}.menu-sidebar .menu-link{background-color:#373D49;font-weight:600}.menu-sidebar .menu-link:after{content:"";display:table;clear:both}.menu-sidebar .menu-link>span{float:left}.menu-sidebar .menu-link>.caret{float:right;text-align:right;top:22px}.menu-sidebar .dropdown,.menu-sidebar .settings{background-color:transparent;position:static;width:100%}.dropdown{position:absolute;right:0;top:51px;width:188px}.dropdown,.settings{display:none;background-color:#1D212A}.dropdown{padding:0}.dropdown,.settings,.sidebar-list{list-style:none;margin:0}.sidebar-list{padding:0}.dropdown li{margin:32px 0;padding:0 0 0 32px}.dropdown li,.settings li{line-height:1}.sidebar-list li{line-height:1;margin:32px 0;padding:0 0 0 32px}.dropdown a{color:#D0D6E2}.dropdown a,.settings a,.sidebar-list a{display:block;text-transform:none}.sidebar-list a{color:#D0D6E2}.dropdown a:after,.settings a:after,.sidebar-list a:after{content:"";display:table;clear:both}.dropdown .icon,.settings .icon,.sidebar-list .icon{float:right}.open .dropdown,.open .settings,.open .sidebar-list{display:block}.open .dropdown.collapse,.open .collapse.settings,.open .sidebar-list.collapse{display:none}.open .dropdown.collapse.in,.open .collapse.in.settings,.open .sidebar-list.collapse.in{display:block}.dropdown .unlinked .icon,.settings .unlinked .icon,.sidebar-list .unlinked .icon{opacity:.3}.dropdown.documents li,.documents.settings li,.sidebar-list.documents li{background-image:url("../img/icons/file.svg");background-position:240px center;background-repeat:no-repeat;background-size:14px 16px;padding:3px 32px}.dropdown.documents li.octocat,.documents.settings li.octocat,.sidebar-list.documents li.octocat{background-image:url("../img/icons/octocat.svg");background-position:234px center;background-size:24px 24px}.dropdown.documents li:last-child,.documents.settings li:last-child,.sidebar-list.documents li:last-child{margin-bottom:1rem}.dropdown.documents li.active a,.documents.settings li.active a,.sidebar-list.documents li.active a{color:#35D7BB}.settings{position:fixed;top:67px;right:16px;border-radius:3px;width:288px;background-color:#373D49;padding:16px;z-index:7}.show-settings .settings{display:block}.settings .has-checkbox{float:left}.settings form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.settings input{width:20%}.settings a{font-size:1.25rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;line-height:28px;color:#D0D6E2}.settings a:after{content:"";display:table;clear:both}.settings a:hover{color:#35D7BB}.settings li{border-bottom:1px solid #4F535B;margin:0;padding:16px 0}.settings li:last-child{border-bottom:none}.brand{border:none;display:block}.brand:hover g{fill:#35D7BB}.toggle{display:block;float:left;height:16px;padding:25px 16px 26px;width:40px}.toggle span:after,.toggle span:before{content:'';left:0;position:absolute;top:-6px}.toggle span:after{top:6px}.toggle span{display:block;position:relative}.toggle span,.toggle span:after,.toggle span:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#D3DAEA;height:2px;-webkit-transition:all .3s;transition:all .3s;width:20px}.open-menu .toggle span{background-color:transparent}.open-menu .toggle span:before{-webkit-transform:rotate(45deg) translate(3px,3px);transform:rotate(45deg) translate(3px,3px)}.open-menu .toggle span:after{-webkit-transform:rotate(-45deg) translate(5px,-6px);transform:rotate(-45deg) translate(5px,-6px)}.caret{display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;position:relative;top:-1px;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}.sidebar{overflow:auto;height:100%;padding-right:15px;padding-bottom:15px;width:285px}.sidebar-wrapper{-webkit-overflow-scrolling:touch;background-color:#2B2F36;left:0;height:100%;overflow-y:hidden;position:fixed;top:0;width:285px;z-index:1}.sidebar-branding{width:160px;padding:0;margin:16px auto}.header{border-bottom:1px solid #E8E8E8;position:relative}.words,.characters{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;z-index:5;position:absolute;right:16px;top:0}.words span,.characters span{color:#000}.words+.characters{top:22px}.btn{text-align:center;display:inline-block;width:100%;text-transform:uppercase;font-weight:600;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:0 1px 0 #1b8b77;padding:16px 24px;background-color:#35D7BB;border-radius:3px;margin:0 auto 16px;line-height:1;color:#fff;-webkit-transition:all .15s linear;transition:all .15s linear;-webkit-font-smoothing:antialiased}.btn--new,.btn--save{display:block;width:238px}.btn--new:hover,.btn--new:focus,.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 3px #24b59c;text-shadow:0 1px 0 #24b59c}.btn--save{background-color:#4A5261;text-shadow:0 1px 1px #1e2127}.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 5px #08090a;text-shadow:none}.btn--delete{display:block;width:238px;background-color:transparent;font-size:12px;text-shadow:none}.btn--delete:hover,.btn--delete:focus{color:#fff;border-bottom-color:transparent;text-shadow:0 1px 0 #08090a;opacity:.8}.btn--delete-modal,.btn--ok,.btn--close{border-top:0;background-color:#4A5261;text-shadow:0 1px 0 #08090a;margin:0}.btn--delete-modal:hover,.btn--delete-modal:focus,.btn--ok:hover,.btn--ok:focus,.btn--close:hover,.btn--close:focus{color:#fff;background-color:#292d36;text-shadow:none}.btn--delete-modal{display:inline;width:auto}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(55,61,73,.8);-webkit-transition:all .25s ease-in-out;transition:all .25s ease-in-out;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out;will-change:left,opacity,visibility;z-index:5;opacity:0;visibility:hidden}.show-settings .overlay{visibility:visible;opacity:1}.switch{float:right;line-height:1}.switch input{display:none}.switch small{display:inline-block;cursor:pointer;padding:0 24px 0 0;-webkit-transition:all ease .2s;transition:all ease .2s;background-color:#2B2F36;border-color:#2B2F36}.switch small,.switch small:before{border-radius:30px;box-shadow:inset 0 0 2px 0 #14171F}.switch small:before{display:block;content:'';width:28px;height:28px;background:#fff}.switch.checked small{padding-right:0;padding-left:24px;background-color:#35D7BB;box-shadow:none}.modal--dillinger.about .modal-dialog{font-size:1.25rem;max-width:500px}.modal--dillinger.scope .modal-dialog{max-width:300px;margin:5rem auto}.modal--dillinger .modal-dialog{max-width:600px;width:auto;margin:5rem auto}.modal--dillinger .modal-content{background:#373D49;border-radius:3px;box-shadow:0 2px 5px 0 #2C3B59;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;padding:2rem}.modal--dillinger ul{list-style-type:disc;margin:1rem 0;padding:0 0 0 1rem}.modal--dillinger li{padding:0;margin:0}.modal--dillinger .modal-header{border:0;padding:0}.modal--dillinger .modal-body{padding:0}.modal--dillinger .modal-footer{border:0;padding:0}.modal--dillinger .close{color:#fff;opacity:1}.modal-backdrop{background-color:#373D49}.pagination--dillinger{padding:0!important;margin:1.5rem 0!important;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:stretch;align-content:stretch}.pagination--dillinger,.pagination--dillinger li{display:-webkit-box;display:-ms-flexbox;display:flex}.pagination--dillinger li{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;text-align:center}.pagination--dillinger li:first-child>a,.pagination--dillinger li.disabled>a,.pagination--dillinger li.disabled>a:hover,.pagination--dillinger li.disabled>a:focus,.pagination--dillinger li>a{background-color:transparent;border-color:#4F535B;border-right-color:transparent}.pagination--dillinger li.active>a,.pagination--dillinger li.active>a:hover,.pagination--dillinger li.active>a:focus{border-color:#4A5261;background-color:#4A5261;color:#fff}.pagination--dillinger li>a{float:none;color:#fff;width:100%;display:block;text-align:center;margin:0;border-right-color:transparent;padding:6px}.pagination--dillinger li>a:hover,.pagination--dillinger li>a:focus{border-color:#35D7BB;background-color:#35D7BB;color:#fff}.pagination--dillinger li:last-child a{border-color:#4F535B}.pagination--dillinger li:first-child a{border-right-color:transparent}.diNotify{position:absolute;z-index:9999;left:0;right:0;top:0;margin:0 auto;max-width:400px;text-align:center;-webkit-transition:top .5s ease-in-out,opacity .5s ease-in-out;transition:top .5s ease-in-out,opacity .5s ease-in-out;visibility:hidden}.diNotify-body{-webkit-font-smoothing:antialiased;background-color:#35D7BB;background:#666E7F;border-radius:3px;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;overflow:hidden;padding:1rem 2rem .5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.diNotify-icon{display:block;width:16px;height:16px;line-height:16px;position:relative;top:3px}.diNotify-message{padding-left:1rem}.zen-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;background-color:#FFF;opacity:0;-webkit-transition:opacity .25s ease-in-out;transition:opacity .25s ease-in-out}.zen-wrapper.on{opacity:1}.enter-zen-mode{background-image:url("../img/icons/enter-zen.svg");right:.5rem;top:.313rem;display:none}.enter-zen-mode,.close-zen-mode{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute}.close-zen-mode{background-image:url("../img/icons/exit-zen.svg");right:1rem;top:1rem}.zen-page{position:relative;top:0;bottom:0;z-index:11;height:100%;width:100%}#zen{font-size:1.25rem;width:300px;height:80%;margin:0 auto;position:relative;top:10%}#zen:before,#zen:after{content:"";position:absolute;height:10%;width:100%;z-index:12;pointer-events:none}#preview .table{width:auto}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block}.ui-resizable-e{background-color:#666;border-right:8px solid #e8e8e8;border-left:1px solid #222;width:10px;z-index:88!important;position:relative}.ui-resizable-e:after{content:"-";display:block;position:absolute;top:calc(50% - 16px);left:0;height:25px;width:2px;background-color:rgba(0,0,0,.4);margin:3px}#editor{cursor:ew-resize;position:relative;z-index:auto}.profile-pic{float:left;width:250px}#_default_ a::before{color:#A0AABF}#_default_ img{display:none}#_default_ #_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ .default-ad{display:none}#_default_ ._default_{display:block}#_default_ a{color:#35d7bb;text-decoration:none}#_default_ a:hover{color:#8ae8d8}#_default_ .default-image{display:none}#_default_ .default-title:after{content:" — "}#_default_ .default-title,#_default_ .default-description{display:inline}#_default_ .default-title{position:relative;font-weight:600;display:none}#_default_ a:before{position:relative;top:0;padding:5px;color:#a0aabf;content:"Ad";text-transform:uppercase;font-size:8px;font-family:Verdana,sans-serif}#_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ ._default_{display:block;font-size:.75rem;height:51px;letter-spacing:1px;line-height:1rem;padding:18px 24px}body{max-width:1024px;margin:0 auto;overflow:auto;padding:2%}.split{overflow:scroll;padding:0!important}.split-editor{padding-left:0;padding-right:0;position:relative;z-index:3}.show-preview .split-editor{display:none}.split-preview{background-color:#fff;display:none;top:0;position:relative;z-index:4}.show-preview .split-preview{display:block}#editor{font-size:1rem;font-family:"Ubuntu Mono",Monaco;font-weight:400;line-height:2rem;width:100%;height:100%}#editor .ace_gutter{-webkit-font-smoothing:antialiased}.editor-header{width:50%;float:left;border-bottom:1px solid #E8E8E8;position:relative}.editor-header--first{border-right:1px solid #E8E8E8}.editor-header .title{display:inline-block}.preview-html{padding:15px}.preview-html a{color:#A0AABF;text-decoration:underline}.preview-src{white-space:normal}.preview-mode-toggle-src{background-image:url("../img/icons/code.svg")}.preview-mode-toggle-src,.preview-mode-toggle-html{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute;right:.5rem;top:.5rem;display:none}.preview-mode-toggle-html{background-image:url("../img/icons/eye.svg")}.sr-only{visibility:hidden;text-overflow:110%;overflow:hidden;top:-100px;position:absolute}.mnone{margin:0!important}@media screen and (min-width:27.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--m1of1{width:100%}.g-b--m1of2,.g-b--m2of4,.g-b--m3of6,.g-b--m4of8,.g-b--m5of10,.g-b--m6of12{width:50%}.g-b--m1of3,.g-b--m2of6,.g-b--m4of12{width:33.333%}.g-b--m2of3,.g-b--m4of6,.g-b--m8of12{width:66.666%}.g-b--m1of4,.g-b--m2of8,.g-b--m3of12{width:25%}.g-b--m3of4,.g-b--m6of8,.g-b--m9of12{width:75%}.g-b--m1of5,.g-b--m2of10{width:20%}.g-b--m2of5,.g-b--m4of10{width:40%}.g-b--m3of5,.g-b--m6of10{width:60%}.g-b--m4of5,.g-b--m8of10{width:80%}.g-b--m1of6,.g-b--m2of12{width:16.666%}.g-b--m5of6,.g-b--m10of12{width:83.333%}.g-b--m1of8{width:12.5%}.g-b--m3of8{width:37.5%}.g-b--m5of8{width:62.5%}.g-b--m7of8{width:87.5%}.g-b--m1of10{width:10%}.g-b--m3of10{width:30%}.g-b--m7of10{width:70%}.g-b--m9of10{width:90%}.g-b--m1of12{width:8.333%}.g-b--m5of12{width:41.666%}.g-b--m7of12{width:58.333%}.g-b--m11of12{width:91.666%}.g-b--push--m1of1{margin-left:100%}.g-b--push--m1of2,.g-b--push--m2of4,.g-b--push--m3of6,.g-b--push--m4of8,.g-b--push--m5of10,.g-b--push--m6of12{margin-left:50%}.g-b--push--m1of3,.g-b--push--m2of6,.g-b--push--m4of12{margin-left:33.333%}.g-b--push--m2of3,.g-b--push--m4of6,.g-b--push--m8of12{margin-left:66.666%}.g-b--push--m1of4,.g-b--push--m2of8,.g-b--push--m3of12{margin-left:25%}.g-b--push--m3of4,.g-b--push--m6of8,.g-b--push--m9of12{margin-left:75%}.g-b--push--m1of5,.g-b--push--m2of10{margin-left:20%}.g-b--push--m2of5,.g-b--push--m4of10{margin-left:40%}.g-b--push--m3of5,.g-b--push--m6of10{margin-left:60%}.g-b--push--m4of5,.g-b--push--m8of10{margin-left:80%}.g-b--push--m1of6,.g-b--push--m2of12{margin-left:16.666%}.g-b--push--m5of6,.g-b--push--m10of12{margin-left:83.333%}.g-b--push--m1of8{margin-left:12.5%}.g-b--push--m3of8{margin-left:37.5%}.g-b--push--m5of8{margin-left:62.5%}.g-b--push--m7of8{margin-left:87.5%}.g-b--push--m1of10{margin-left:10%}.g-b--push--m3of10{margin-left:30%}.g-b--push--m7of10{margin-left:70%}.g-b--push--m9of10{margin-left:90%}.g-b--push--m1of12{margin-left:8.333%}.g-b--push--m5of12{margin-left:41.666%}.g-b--push--m7of12{margin-left:58.333%}.g-b--push--m11of12{margin-left:91.666%}.g-b--pull--m1of1{margin-right:100%}.g-b--pull--m1of2,.g-b--pull--m2of4,.g-b--pull--m3of6,.g-b--pull--m4of8,.g-b--pull--m5of10,.g-b--pull--m6of12{margin-right:50%}.g-b--pull--m1of3,.g-b--pull--m2of6,.g-b--pull--m4of12{margin-right:33.333%}.g-b--pull--m2of3,.g-b--pull--m4of6,.g-b--pull--m8of12{margin-right:66.666%}.g-b--pull--m1of4,.g-b--pull--m2of8,.g-b--pull--m3of12{margin-right:25%}.g-b--pull--m3of4,.g-b--pull--m6of8,.g-b--pull--m9of12{margin-right:75%}.g-b--pull--m1of5,.g-b--pull--m2of10{margin-right:20%}.g-b--pull--m2of5,.g-b--pull--m4of10{margin-right:40%}.g-b--pull--m3of5,.g-b--pull--m6of10{margin-right:60%}.g-b--pull--m4of5,.g-b--pull--m8of10{margin-right:80%}.g-b--pull--m1of6,.g-b--pull--m2of12{margin-right:16.666%}.g-b--pull--m5of6,.g-b--pull--m10of12{margin-right:83.333%}.g-b--pull--m1of8{margin-right:12.5%}.g-b--pull--m3of8{margin-right:37.5%}.g-b--pull--m5of8{margin-right:62.5%}.g-b--pull--m7of8{margin-right:87.5%}.g-b--pull--m1of10{margin-right:10%}.g-b--pull--m3of10{margin-right:30%}.g-b--pull--m7of10{margin-right:70%}.g-b--pull--m9of10{margin-right:90%}.g-b--pull--m1of12{margin-right:8.333%}.g-b--pull--m5of12{margin-right:41.666%}.g-b--pull--m7of12{margin-right:58.333%}.g-b--pull--m11of12{margin-right:91.666%}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:400px}#editor{font-size:1rem}}@media screen and (min-width:46.25em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--t1of1{width:100%}.g-b--t1of2,.g-b--t2of4,.g-b--t3of6,.g-b--t4of8,.g-b--t5of10,.g-b--t6of12{width:50%}.g-b--t1of3,.g-b--t2of6,.g-b--t4of12{width:33.333%}.g-b--t2of3,.g-b--t4of6,.g-b--t8of12{width:66.666%}.g-b--t1of4,.g-b--t2of8,.g-b--t3of12{width:25%}.g-b--t3of4,.g-b--t6of8,.g-b--t9of12{width:75%}.g-b--t1of5,.g-b--t2of10{width:20%}.g-b--t2of5,.g-b--t4of10{width:40%}.g-b--t3of5,.g-b--t6of10{width:60%}.g-b--t4of5,.g-b--t8of10{width:80%}.g-b--t1of6,.g-b--t2of12{width:16.666%}.g-b--t5of6,.g-b--t10of12{width:83.333%}.g-b--t1of8{width:12.5%}.g-b--t3of8{width:37.5%}.g-b--t5of8{width:62.5%}.g-b--t7of8{width:87.5%}.g-b--t1of10{width:10%}.g-b--t3of10{width:30%}.g-b--t7of10{width:70%}.g-b--t9of10{width:90%}.g-b--t1of12{width:8.333%}.g-b--t5of12{width:41.666%}.g-b--t7of12{width:58.333%}.g-b--t11of12{width:91.666%}.g-b--push--t1of1{margin-left:100%}.g-b--push--t1of2,.g-b--push--t2of4,.g-b--push--t3of6,.g-b--push--t4of8,.g-b--push--t5of10,.g-b--push--t6of12{margin-left:50%}.g-b--push--t1of3,.g-b--push--t2of6,.g-b--push--t4of12{margin-left:33.333%}.g-b--push--t2of3,.g-b--push--t4of6,.g-b--push--t8of12{margin-left:66.666%}.g-b--push--t1of4,.g-b--push--t2of8,.g-b--push--t3of12{margin-left:25%}.g-b--push--t3of4,.g-b--push--t6of8,.g-b--push--t9of12{margin-left:75%}.g-b--push--t1of5,.g-b--push--t2of10{margin-left:20%}.g-b--push--t2of5,.g-b--push--t4of10{margin-left:40%}.g-b--push--t3of5,.g-b--push--t6of10{margin-left:60%}.g-b--push--t4of5,.g-b--push--t8of10{margin-left:80%}.g-b--push--t1of6,.g-b--push--t2of12{margin-left:16.666%}.g-b--push--t5of6,.g-b--push--t10of12{margin-left:83.333%}.g-b--push--t1of8{margin-left:12.5%}.g-b--push--t3of8{margin-left:37.5%}.g-b--push--t5of8{margin-left:62.5%}.g-b--push--t7of8{margin-left:87.5%}.g-b--push--t1of10{margin-left:10%}.g-b--push--t3of10{margin-left:30%}.g-b--push--t7of10{margin-left:70%}.g-b--push--t9of10{margin-left:90%}.g-b--push--t1of12{margin-left:8.333%}.g-b--push--t5of12{margin-left:41.666%}.g-b--push--t7of12{margin-left:58.333%}.g-b--push--t11of12{margin-left:91.666%}.g-b--pull--t1of1{margin-right:100%}.g-b--pull--t1of2,.g-b--pull--t2of4,.g-b--pull--t3of6,.g-b--pull--t4of8,.g-b--pull--t5of10,.g-b--pull--t6of12{margin-right:50%}.g-b--pull--t1of3,.g-b--pull--t2of6,.g-b--pull--t4of12{margin-right:33.333%}.g-b--pull--t2of3,.g-b--pull--t4of6,.g-b--pull--t8of12{margin-right:66.666%}.g-b--pull--t1of4,.g-b--pull--t2of8,.g-b--pull--t3of12{margin-right:25%}.g-b--pull--t3of4,.g-b--pull--t6of8,.g-b--pull--t9of12{margin-right:75%}.g-b--pull--t1of5,.g-b--pull--t2of10{margin-right:20%}.g-b--pull--t2of5,.g-b--pull--t4of10{margin-right:40%}.g-b--pull--t3of5,.g-b--pull--t6of10{margin-right:60%}.g-b--pull--t4of5,.g-b--pull--t8of10{margin-right:80%}.g-b--pull--t1of6,.g-b--pull--t2of12{margin-right:16.666%}.g-b--pull--t5of6,.g-b--pull--t10of12{margin-right:83.333%}.g-b--pull--t1of8{margin-right:12.5%}.g-b--pull--t3of8{margin-right:37.5%}.g-b--pull--t5of8{margin-right:62.5%}.g-b--pull--t7of8{margin-right:87.5%}.g-b--pull--t1of10{margin-right:10%}.g-b--pull--t3of10{margin-right:30%}.g-b--pull--t7of10{margin-right:70%}.g-b--pull--t9of10{margin-right:90%}.g-b--pull--t1of12{margin-right:8.333%}.g-b--pull--t5of12{margin-right:41.666%}.g-b--pull--t7of12{margin-right:58.333%}.g-b--pull--t11of12{margin-right:91.666%}.splashscreen-dillinger{width:500px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--save-to,.menu .menu-item--import-from{display:block}.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog{font-size:1.25rem}.enter-zen-mode{display:block}.close-zen-mode{right:3rem;top:3rem}#zen{font-size:1.25rem;width:500px}.split-editor{border-right:1px solid #E8E8E8;float:left;height:calc(100vh - 172px);-webkit-overflow-scrolling:touch;padding-right:16px;width:50%}.show-preview .split-editor{display:block}.split-preview{display:block;float:right;height:calc(100vh - 172px);-webkit-overflow-scrolling:touch;position:relative;top:0;width:50%}#editor{font-size:1rem}.preview-mode-toggle-src,.preview-mode-toggle-html{display:block}}@media screen and (min-width:62.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--d1of1{width:100%}.g-b--d1of2,.g-b--d2of4,.g-b--d3of6,.g-b--d4of8,.g-b--d5of10,.g-b--d6of12{width:50%}.g-b--d1of3,.g-b--d2of6,.g-b--d4of12{width:33.333%}.g-b--d2of3,.g-b--d4of6,.g-b--d8of12{width:66.666%}.g-b--d1of4,.g-b--d2of8,.g-b--d3of12{width:25%}.g-b--d3of4,.g-b--d6of8,.g-b--d9of12{width:75%}.g-b--d1of5,.g-b--d2of10{width:20%}.g-b--d2of5,.g-b--d4of10{width:40%}.g-b--d3of5,.g-b--d6of10{width:60%}.g-b--d4of5,.g-b--d8of10{width:80%}.g-b--d1of6,.g-b--d2of12{width:16.666%}.g-b--d5of6,.g-b--d10of12{width:83.333%}.g-b--d1of8{width:12.5%}.g-b--d3of8{width:37.5%}.g-b--d5of8{width:62.5%}.g-b--d7of8{width:87.5%}.g-b--d1of10{width:10%}.g-b--d3of10{width:30%}.g-b--d7of10{width:70%}.g-b--d9of10{width:90%}.g-b--d1of12{width:8.333%}.g-b--d5of12{width:41.666%}.g-b--d7of12{width:58.333%}.g-b--d11of12{width:91.666%}.g-b--push--d1of1{margin-left:100%}.g-b--push--d1of2,.g-b--push--d2of4,.g-b--push--d3of6,.g-b--push--d4of8,.g-b--push--d5of10,.g-b--push--d6of12{margin-left:50%}.g-b--push--d1of3,.g-b--push--d2of6,.g-b--push--d4of12{margin-left:33.333%}.g-b--push--d2of3,.g-b--push--d4of6,.g-b--push--d8of12{margin-left:66.666%}.g-b--push--d1of4,.g-b--push--d2of8,.g-b--push--d3of12{margin-left:25%}.g-b--push--d3of4,.g-b--push--d6of8,.g-b--push--d9of12{margin-left:75%}.g-b--push--d1of5,.g-b--push--d2of10{margin-left:20%}.g-b--push--d2of5,.g-b--push--d4of10{margin-left:40%}.g-b--push--d3of5,.g-b--push--d6of10{margin-left:60%}.g-b--push--d4of5,.g-b--push--d8of10{margin-left:80%}.g-b--push--d1of6,.g-b--push--d2of12{margin-left:16.666%}.g-b--push--d5of6,.g-b--push--d10of12{margin-left:83.333%}.g-b--push--d1of8{margin-left:12.5%}.g-b--push--d3of8{margin-left:37.5%}.g-b--push--d5of8{margin-left:62.5%}.g-b--push--d7of8{margin-left:87.5%}.g-b--push--d1of10{margin-left:10%}.g-b--push--d3of10{margin-left:30%}.g-b--push--d7of10{margin-left:70%}.g-b--push--d9of10{margin-left:90%}.g-b--push--d1of12{margin-left:8.333%}.g-b--push--d5of12{margin-left:41.666%}.g-b--push--d7of12{margin-left:58.333%}.g-b--push--d11of12{margin-left:91.666%}.g-b--pull--d1of1{margin-right:100%}.g-b--pull--d1of2,.g-b--pull--d2of4,.g-b--pull--d3of6,.g-b--pull--d4of8,.g-b--pull--d5of10,.g-b--pull--d6of12{margin-right:50%}.g-b--pull--d1of3,.g-b--pull--d2of6,.g-b--pull--d4of12{margin-right:33.333%}.g-b--pull--d2of3,.g-b--pull--d4of6,.g-b--pull--d8of12{margin-right:66.666%}.g-b--pull--d1of4,.g-b--pull--d2of8,.g-b--pull--d3of12{margin-right:25%}.g-b--pull--d3of4,.g-b--pull--d6of8,.g-b--pull--d9of12{margin-right:75%}.g-b--pull--d1of5,.g-b--pull--d2of10{margin-right:20%}.g-b--pull--d2of5,.g-b--pull--d4of10{margin-right:40%}.g-b--pull--d3of5,.g-b--pull--d6of10{margin-right:60%}.g-b--pull--d4of5,.g-b--pull--d8of10{margin-right:80%}.g-b--pull--d1of6,.g-b--pull--d2of12{margin-right:16.666%}.g-b--pull--d5of6,.g-b--pull--d10of12{margin-right:83.333%}.g-b--pull--d1of8{margin-right:12.5%}.g-b--pull--d3of8{margin-right:37.5%}.g-b--pull--d5of8{margin-right:62.5%}.g-b--pull--d7of8{margin-right:87.5%}.g-b--pull--d1of10{margin-right:10%}.g-b--pull--d3of10{margin-right:30%}.g-b--pull--d7of10{margin-right:70%}.g-b--pull--d9of10{margin-right:90%}.g-b--pull--d1of12{margin-right:8.333%}.g-b--pull--d5of12{margin-right:41.666%}.g-b--pull--d7of12{margin-right:58.333%}.g-b--pull--d11of12{margin-right:91.666%}.splashscreen-dillinger{width:700px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--export-as{display:block}.menu .menu-item--preview{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:700px}#editor{font-size:1rem}}@media screen and (min-width:87.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.splashscreen-dillinger{width:800px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#editor{font-size:1rem}}@media (min-width:768px){.form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .input-group{display:inline-table;vertical-align:middle}.form-inline .input-group .input-group-addon,.form-inline .input-group .input-group-btn,.form-inline .input-group .form-control{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .radio,.form-inline .checkbox{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .radio label,.form-inline .checkbox label{padding-left:0}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:7px}.form-horizontal .form-group-lg .control-label{padding-top:14.3px}.form-horizontal .form-group-sm .control-label{padding-top:6px}.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}@media screen and (max-width:1200px){#_default_{max-width:30%}#_default_ ._default_{font-size:.825rem;line-height:.875rem;padding:12px 12px 6px 24px;text-align:justify}}@media screen and (max-width:1100px){#_default_{max-width:27%}#_default_ ._default_{font-size:.8rem;line-height:.85rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:1000px){#_default_{max-width:24%}#_default_ ._default_{font-size:.775rem;line-height:.8rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:900px){#_default_{max-width:30%}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd;-webkit-overflow-scrolling:touch}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}.table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}}@media screen and (max-width:720px){#_default_{max-width:60%}#_default_ ._default_{font-size:.75rem;line-height:1rem;padding:12px 24px}}@media screen and (max-width:620px){#_default_{max-width:50%}#_default_ ._default_{font-size:.66rem;letter-spacing:1px;line-height:1rem;padding:10px 24px}}@media screen and (max-width:520px){#_default_ ._default_{font-size:.4rem;line-height:.875rem;padding:6px 12px 6px 24px;text-align:justify}}@media screen and (max-width:460px){#_default_{display:none}}@media screen and (max-width:46.1875em){.editor-header{display:none}.editor-header--first{display:block;width:100%}}</style></head><body id="preview">
+<p>A full blown web<br>
+application with Node.js<br>
+The use cases<br>
+Let’s keep it simple, but realistic:<br>
+• The user should be able to use our application with a web<br>
+browser<br>
+• The user should see a welcome page when requesting<br>
+<a href="http://domain/start">http://domain/start</a> which displays a file upload form<br>
+• By choosing an image file to upload and submitting the<br>
+form, this image should then be uploaded to <a href="http://domain/upload">http://domain/upload</a>,<br>
+where it is displayed once the upload is finished<br>
+Fair enough. Now, you could achieve this goal by googling and<br>
+hacking together something. But that’s not what we want to do<br>
+here.<br>
+Furthermore, we don’t want to write only the most basic code<br>
+to achieve the goal, however elegant and correct this code might<br>
+be. We will intentionally add more abstraction than necessary<br>
+in order to get a feeling for building more complex Node.js<br>
+applications.<br>
+7<br>
+A full blown web application with Node.js 8<br>
+The application stack<br>
+Let’s dissect our application. Which parts need to be implemented<br>
+in order to fulfill the use cases?<br>
+• We want to serve web pages, therefore we need an HTTP<br>
+server<br>
+• Our server will need to answer differently to requests,<br>
+depending on which URL the request was asking for, thus<br>
+we need some kind of router in order to map requests to<br>
+request handlers<br>
+• To fullfill the requests that arrived at the server and have<br>
+been routed using the router, we need actual request<br>
+handlers<br>
+• The router probably should also treat any incoming POST<br>
+data and give it to the request handlers in a convenient<br>
+form, thus we need request data handling<br>
+• We not only want to handle requests for URLs, we also<br>
+want to display content when these URLs are requested,<br>
+which means we need some kind of view logic the request<br>
+handlers can use in order to send content to the user’s<br>
+browser<br>
+• Last but not least, the user will be able to upload images,<br>
+so we are going to need some kind of upload handling<br>
+which takes care of the details<br>
+Let’s think a moment about how we would build this stack with<br>
+PHP. It’s not exactly a secret that the typical setup would be an<br>
+Apache HTTP server with mod_php5 installed.<br>
+Which in turn means that the whole “we need to be able to serve<br>
+A full blown web application with Node.js 9<br>
+web pages and receive HTTP requests” stuff doesn’t happen<br>
+within PHP itself.<br>
+Well, with node, things are a bit different. Because with Node.js,<br>
+we not only implement our application, we also implement the<br>
+whole HTTP server. In fact, our web application and its web<br>
+server are basically the same.<br>
+This might sound like a lot of work, but we will see in a moment<br>
+that with Node.js, it’s not.<br>
+Let’s just start at the beginning and implement the first part of<br>
+our stack, the HTTP server.<br>
+Building the application<br>
+stack<br>
+A basic HTTP server<br>
+When I arrived at the point where I wanted to start with my first<br>
+“real” Node.js application, I wondered not only how to actually<br>
+code it, but also how to organize my code.<br>
+Do I need to have everything in one file? Most tutorials on the<br>
+web that teach you how to write a basic HTTP server in Node.js<br>
+have all the logic in one place. What if I want to make sure that<br>
+my code stays readable the more stuff I implement?<br>
+Turns out, it’s relatively easy to keep the different concerns of<br>
+your code separated, by putting them in modules.<br>
+This allows you to have a clean main file, which you execute<br>
+with Node.js, and clean modules that can be used by the main<br>
+file and among each other.<br>
+So, let’s create a main file which we use to start our application,<br>
+and a module file where our HTTP server code lives.<br>
+My impression is that it’s more or less a standard to name your<br>
+main file index.js. It makes sense to put our server module into<br>
+a file named server.js.<br>
+Let’s start with the server module. Create the file server.js in the<br>
+root directory of your project, and fill it with the following code:<br>
+10<br>
+Building the application stack 11<br>
+var http = require(“http”);<br>
+http.createServer(function(request, response) {<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}).listen(8888);<br>
+That’s it! You just wrote a working HTTP server. Let’s prove it<br>
+by running and testing it. First, execute your script with Node.js:<br>
+node server.js<br>
+Now, open your browser and point it at <a href="http://localhost:8888/%C2%B2">http://localhost:8888/²</a>.<br>
+This should display a web page that says “Hello World”.<br>
+That’s quite interesting, isn’t it. How about talking about what’s<br>
+going on here and leaving the question of how to organize our<br>
+project for later? I promise we’ll get back to it.<br>
+Analyzing our HTTP server<br>
+Well, then, let’s analyze what’s actually going on here.<br>
+The first line requires the http module that ships with Node.js<br>
+and makes it accessible through the variable http.<br>
+We then call one of the functions the http module offers: createServer.<br>
+This function returns an object, and this object has a<br>
+²http://localhost:8888/<br>
+Building the application stack 12<br>
+method named listen, and takes a numeric value which indicates<br>
+the port number our HTTP server is going to listen on.<br>
+Please ignore for a second the function definition that follows<br>
+the opening bracket of http.createServer.<br>
+We could have written the code that starts our server and makes<br>
+it listen at port 8888 like this:<br>
+var http = require(“http”);<br>
+var server = http.createServer();<br>
+server.listen(8888);<br>
+That would start an HTTP server listening at port 8888 and doing<br>
+nothing else (not even answering any incoming requests).<br>
+The really interesting (and, if your background is a more conservative<br>
+language like PHP, odd looking) part is the function<br>
+definition right there where you would expect the first parameter<br>
+of the createServer() call.<br>
+Turns out, this function definition IS the first (and only) parameter<br>
+we are giving to the createServer() call. Because in JavaScript,<br>
+functions can be passed around like any other value.<br>
+Passing functions around<br>
+You can, for example, do something like this:<br>
+Building the application stack 13<br>
+function say(word) {<br>
+console.log(word);<br>
+}<br>
+function execute(someFunction, value) {<br>
+someFunction(value);<br>
+}<br>
+execute(say, “Hello”);<br>
+Read this carefully! What we are doing here is, we pass the<br>
+function say as the first parameter to the execute function. Not<br>
+the return value of say, but say itself!<br>
+Thus, say becomes the local variable someFunction within execute,<br>
+and execute can call the function in this variable by issuing<br>
+someFunction() (adding brackets).<br>
+Of course, because say takes one parameter, execute can pass<br>
+such a parameter when calling someFunction.<br>
+We can, as we just did, pass a function as a parameter to another<br>
+function by its name. But we don’t have to take this indirection of<br>
+first defining, then passing it - we can define and pass a function<br>
+as a parameter to another function in-place:<br>
+function execute(someFunction, value) {<br>
+someFunction(value);<br>
+}<br>
+execute(function(word){ console.log(word) }, “Hello”);<br>
+Building the application stack 14<br>
+We define the function we want to pass to execute right there at<br>
+the place where execute expects its first parameter.<br>
+This way, we don’t even need to give the function a name, which<br>
+is why this is called an anonymous function.<br>
+This is a first glimpse at what I like to call “advanced” JavaScript,<br>
+but let’s take it step by step. For now, let’s just accept that in<br>
+JavaScript, we can pass a function as a parameter when calling<br>
+another function. We can do this by assigning our function to a<br>
+variable, which we then pass, or by defining the function to pass<br>
+in-place.<br>
+How function passing makes our HTTP<br>
+server work<br>
+With this knowledge, let’s get back to our minimalistic HTTP<br>
+server:<br>
+var http = require(“http”);<br>
+http.createServer(function(request, response) {<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}).listen(8888);<br>
+By now it should be clear what we are actually doing here: we<br>
+pass the createServer function an anonymous function.<br>
+We could achieve the same by refactoring our code to:<br>
+Building the application stack 15<br>
+var http = require(“http”);<br>
+function onRequest(request, response) {<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+Maybe now is a good moment to ask: Why are we doing it that<br>
+way?<br>
+Event-driven asynchronous callbacks<br>
+To understand why Node.js applications have to be written this<br>
+way, we need to understand how Node.js executes our code.<br>
+Node’s approach isn’t unique, but the underlying execution<br>
+model is different from runtime environments like Python, Ruby,<br>
+PHP or Java.<br>
+Let’s take a very simple piece of code like this:<br>
+var result = database.query(“SELECT * FROM hugetable”);<br>
+console.log(“Hello World”);<br>
+Please ignore for now that we haven’t actually talked about<br>
+connecting to databases before - it’s just an example. The first<br>
+line queries a database for lots of rows, the second line puts<br>
+“Hello World” to the console.<br>
+Building the application stack 16<br>
+Let’s assume that the database query is really slow, that it has to<br>
+read an awful lot of rows, which takes several seconds.<br>
+The way we have written this code, the JavaScript interpreter of<br>
+Node.js first has to read the complete result set from the database,<br>
+and then it can execute the console.log() function.<br>
+If this piece of code actually was, say, PHP, it would work the<br>
+same way: read all the results at once, then execute the next line<br>
+of code. If this code would be part of a web page script, the user<br>
+would have to wait several seconds for the page to load.<br>
+However, in the execution model of PHP, this would not become<br>
+a “global” problem: the web server starts its own PHP process for<br>
+every HTTP request it receives. If one of these requests results in<br>
+the execution of a slow piece of code, it results in a slow page load<br>
+for this particular user, but other users requesting other pages<br>
+would not be affected.<br>
+The execution model of Node.js is different - there is only one<br>
+single process. If there is a slow database query somewhere in<br>
+this process, this affects the whole process - everything comes to<br>
+a halt until the slow query has finished.<br>
+To avoid this, JavaScript, and therefore Node.js, introduces the<br>
+concept of event-driven, asynchronous callbacks, by utilizing an<br>
+event loop.<br>
+We can understand this concept by analyzing a rewritten version<br>
+of our problematic code:<br>
+Building the application stack 17<br>
+database.query(“SELECT * FROM hugetable”, function(rows) {<br>
+var result = rows;<br>
+});<br>
+console.log(“Hello World”);<br>
+Here, instead of expecting database.query() to directly return<br>
+a result to us, we pass it a second parameter, an anonymous<br>
+function.<br>
+In its previous form, our code was synchronous: first do the<br>
+database query, and only when this is done, then write to the<br>
+console.<br>
+Now, Node.js can handle the database request asynchronously.<br>
+Provided that database.query() is part of an asynchronous library,<br>
+this is what Node.js does: just as before, it takes the query<br>
+and sends it to the database. But instead of waiting for it to be<br>
+finished, it makes a mental note that says “When at some point<br>
+in the future the database server is done and sends the result of<br>
+the query, then I have to execute the anonymous function that<br>
+was passed to database.query().”<br>
+Then, it immediately executes console.log(), and afterwards, it<br>
+enters the event loop. Node.js continuously cycles through this<br>
+loop again and again whenever there is nothing else to do,<br>
+waiting for events. Events like, e.g., a slow database query finally<br>
+delivering its results.<br>
+This also explains why our HTTP server needs a function it can<br>
+call upon incoming requests - if Node.js would start the server<br>
+and then just pause, waiting for the next request, continuing only<br>
+when it arrives, that would be highly inefficent. If a second user<br>
+requests the server while it is still serving the first request, that<br>
+Building the application stack 18<br>
+second request could only be answered after the first one is done</p>
+<ul>
+<li>as soon as you have more than a handful of HTTP requests per<br>
+second, this wouldn’t work at all.<br>
+It’s important to note that this asynchronous, single-threaded,<br>
+event-driven execution model isn’t an infinitely scalable performance<br>
+unicorn with silver bullets attached. It is just one of<br>
+several models, and it has its limitations, one being that as of<br>
+now, Node.js is just one single process, and it can run on only one<br>
+single CPU core. Personally, I find this model quite approachable,<br>
+because it allows to write applications that have to deal<br>
+with concurrency in an efficient and relatively straightforward<br>
+manner.<br>
+You might want to take the time to read Felix Geisendoerfer’s<br>
+excellent post Understanding node.js³ for additional background<br>
+explanation.<br>
+Let’s play around a bit with this new concept. Can we prove<br>
+that our code continues after creating the server, even if no<br>
+HTTP request happened and the callback function we passed<br>
+isn’t called? Let’s try it:<br>
+³http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-<br>
+0f7ecbdd56cb<br>
+Building the application stack 19<br>
+var http = require(“http”);<br>
+function onRequest(request, response) {<br>
+console.log(“Request received.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+Note that I use console.log to output a text whenever the onRequest<br>
+function (our callback) is triggered, and another text right<br>
+after starting the HTTP server.<br>
+When we start this (node server.js, as always), it will immediately<br>
+output “Server has started.” on the command line. Whenever<br>
+we request our server (by opening <a href="http://localhost:8888/%E2%81%B4">http://localhost:8888/⁴</a> in our<br>
+browser), the message “Request received.” is printed on the<br>
+command line.<br>
+Event-driven asynchronous server-side JavaScript with callbacks<br>
+in action :-)<br>
+(Note that our server will probably write “Request received.”<br>
+to STDOUT two times upon opening the page in a browser.<br>
+That’s because most browser will try to load the favicon by<br>
+requesting <a href="http://localhost:8888/favicon.ico">http://localhost:8888/favicon.ico</a> whenever you open<br>
+<a href="http://localhost:8888/">http://localhost:8888/</a>).<br>
+⁴http://localhost:8888/<br>
+Building the application stack 20<br>
+How our server handles requests<br>
+Ok, let’s quickly analyze the rest of our server code, that is, the<br>
+body of our callback function onRequest().<br>
+When the callback fires and our onRequest() function gets triggered,<br>
+two parameters are passed into it: request and response.<br>
+Those are objects, and you can use their methods to handle the<br>
+details of the HTTP request that occured and to respond to the<br>
+request (i.e., to actually send something over the wire back to the<br>
+browser that requested your server).<br>
+And our code does just that: Whenever a request is received, it<br>
+uses the response.writeHead() function to send an HTTP status<br>
+200 and content-type in the HTTP response header, and the<br>
+response.write() function to send the text “Hello World” in the<br>
+HTTP response body.<br>
+At last, we call response.end() to actually finish our response.<br>
+At this point, we don’t care for the details of the request, which<br>
+is why we don’t use the request object at all.<br>
+Finding a place for our server module<br>
+Ok, I promised we will get back to how to organize our application.<br>
+We have the code for a very basic HTTP server in<br>
+the file server.js, and I mentioned that it’s common to have a<br>
+main file called index.js which is used to bootstrap and start our<br>
+application by making use of the other modules of the application<br>
+(like the HTTP server module that lives in server.js).<br>
+Building the application stack 21<br>
+Let’s talk about how to make server.js a real Node.js module that<br>
+can be used by our yet-to-be-written index.js main file.<br>
+As you may have noticed, we already used modules in our code,<br>
+like this:<br>
+var http = require(“http”);<br>
+…<br>
+http.createServer(…);<br>
+Somewhere within Node.js lives a module called “http”, and we<br>
+can make use of it in our own code by requiring it and assigning<br>
+the result of the require to a local variable.<br>
+This makes our local variable an object that carries all the public<br>
+methods the http module provides.<br>
+It’s common practice to choose the name of the module for the<br>
+name of the local variable, but we are free to choose whatever<br>
+we like:<br>
+var foo = require(“http”);<br>
+…<br>
+foo.createServer(…);<br>
+Fine, it’s clear how to make use of internal Node.js modules. How<br>
+do we create our own modules, and how do we use them?<br>
+Building the application stack 22<br>
+Let’s find out by turning our server.js script into a real module.<br>
+Turns out, we don’t have to change that much. Making some<br>
+code a module means we need to export those parts of its<br>
+functionality that we want to provide to scripts that require our<br>
+module.<br>
+For now, the functionality our HTTP server needs to export is<br>
+simple: scripts requiring our server module simply need to start<br>
+the server.<br>
+To make this possible, we will put our server code into a function<br>
+named start, and we will export this function:<br>
+var http = require(“http”);<br>
+function start() {<br>
+function onRequest(request, response) {<br>
+console.log(“Request received.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+This way, we can now create our main file index.js, and start<br>
+our HTTP there, although the code for the server is still in our<br>
+server.js file.<br>
+Building the application stack 23<br>
+Create a file index.js with the following content:<br>
+var server = require(&quot;./server&quot;);<br>
+server.start();<br>
+As you can see, we can use our server module just like any<br>
+internal module: by requiring its file and assigning it to a<br>
+variable, its exported functions become available to us.<br>
+That’s it. We can now start our app via our main script, and it<br>
+still does exactly the same:<br>
+node index.js<br>
+Great, we now can put the different parts of our application into<br>
+different files and wire them together by making them modules.<br>
+We still have only the very first part of our application in place:<br>
+we can receive HTTP requests. But we need to do something with<br>
+them - depending on which URL the browser requested from our<br>
+server, we need to react differently.<br>
+For a very simple application, you could do this directly within<br>
+the callback function onRequest(). But as I said, let’s add a bit<br>
+more abstraction in order to make our example application a bit<br>
+more interesting.<br>
+Making different HTTP requests point at different parts of our<br>
+code is called “routing” - well, then, let’s create a module called<br>
+router.<br>
+Building the application stack 24<br>
+What’s needed to “route” requests?<br>
+We need to be able to feed the requested URL and possible<br>
+additional GET and POST parameters into our router, and based<br>
+on these the router then needs to be able to decide which code to<br>
+execute (this “code to execute” is the third part of our application:<br>
+a collection of request handlers that do the actual work when a<br>
+request is received).<br>
+So, we need to look into the HTTP requests and extract the<br>
+requested URL as well as the GET/POST parameters from them.<br>
+It could be argued if that should be part of the router or part of<br>
+the server (or even a module of its own), but let’s just agree on<br>
+making it part of our HTTP server for now.<br>
+All the information we need is available through the request<br>
+object which is passed as the first parameter to our callback<br>
+function onRequest(). But to interpret this information, we need<br>
+some additional Node.js modules, namely url and querystring.<br>
+The url module provides methods which allow us to extract the<br>
+different parts of a URL (like e.g. the requested path and query<br>
+string), and querystring can in turn be used to parse the query<br>
+string for request parameters:<br>
+Building the application stack 25<br>
+url.parse(string).query<br>
+|<br>
+url.parse(string).pathname |<br>
+| |<br>
+| |</li>
+</ul>
+<hr>
+<p><a href="http://localhost:8888/start?foo=bar&amp;hello=world">http://localhost:8888/start?foo=bar&amp;hello=world</a></p>
+<hr>
+<p>| |<br>
+| |<br>
+querystring(string)[“foo”] |<br>
+|<br>
+querystring(string)[“hello”]<br>
+We can, of course, also use querystring to parse the body of a<br>
+POST request for parameters, as we will see later.<br>
+Let’s now add to our onRequest() function the logic needed to<br>
+find out which URL path the browser requested:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start() {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+Building the application stack 26<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+Fine. Our application can now distinguish requests based on<br>
+the URL path requested - this allows us to map requests to our<br>
+request handlers based on the URL path using our (yet to be<br>
+written) router.<br>
+In the context of our application, it simply means that we will<br>
+be able to have requests for the /start and /upload URLs handled<br>
+by different parts of our code. We will see how everything fits<br>
+together soon.<br>
+Ok, it’s time to actually write our router. Create a new file called<br>
+router.js, with the following content:<br>
+function route(pathname) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+}<br>
+exports.route = route;<br>
+Of course, this code basically does nothing, but that’s ok for now.<br>
+Let’s first see how to wire together this router with our server<br>
+before putting more logic into the router.<br>
+Our HTTP server needs to know about and make use of our<br>
+router. We could hard-wire this dependency into the server,<br>
+Building the application stack 27<br>
+but because we learned the hard way from our experience with<br>
+other programming languages, we are going to loosely couple<br>
+server and router by injecting this dependency (you may want<br>
+to read Martin Fowlers excellent post on Dependency Injection⁵<br>
+for background information).<br>
+Let’s first extend our server’s start() function in order to enable<br>
+us to pass the route function to be used by parameter:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route) {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+route(pathname);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+⁵http://martinfowler.com/articles/injection.html<br>
+Building the application stack 28<br>
+And let’s extend our index.js accordingly, that is, injecting the<br>
+route function of our router into the server:<br>
+var server = require(”./server&quot;);<br>
+var router = require(&quot;./router&quot;);<br>
+server.start(router.route);<br>
+Again, we are passing a function, which by now isn’t any news<br>
+for us.<br>
+If we start our application now (node index.js, as always), and<br>
+request an URL, you can now see from the application’s output<br>
+that our HTTP server makes use of our router and passes it the<br>
+requested pathname:<br>
+bash$ node index.js<br>
+Request for /foo received.<br>
+About to route a request for /foo<br>
+(I omitted the rather annoying output for the /favicon.ico request).<br>
+Execution in the kingdom of verbs<br>
+May I once again stray away for a while and talk about functional<br>
+programming again?<br>
+Passing functions is not only a technical consideration. With<br>
+regard to software design, it’s almost philosophical. Just think<br>
+Building the application stack 29<br>
+about it: in our index file, we could have passed the router object<br>
+into the server, and the server could have called this object’s<br>
+route function.<br>
+This way, we would have passed a thing, and the server would<br>
+have used this thing to do something. Hey, router thing, could<br>
+you please route this for me?<br>
+But the server doesn’t need the thing. It only needs to get<br>
+something done, and to get something done, you don’t need<br>
+things at all, you need actions. You don’t need nouns, you need<br>
+verbs.<br>
+Understanding the fundamental mind-shift that’s at the core<br>
+of this idea is what made me really understand functional<br>
+programming.<br>
+And I did understand it when reading Steve Yegge’s masterpiece<br>
+Execution in the Kingdom of Nouns⁶. Go read it now, really. It’s<br>
+one of the best writings related to software I ever had the pleasure<br>
+to encounter.<br>
+Routing to real request handlers<br>
+Back to business. Our HTTP server and our request router are<br>
+now best friends and talk to each other as we intended.<br>
+Of course, that’s not enough. “Routing” means, we want to<br>
+handle requests to different URLs differently. We would like to<br>
+have the “business logic” for requests to /start handled in another<br>
+function than requests to /upload.<br>
+⁶http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html<br>
+Building the application stack 30<br>
+Right now, the routing “ends” in the router, and the router is not<br>
+the place to actually “do” something with the requests, because<br>
+that wouldn’t scale well once our application becomes more<br>
+complex.<br>
+Let’s call these functions, where requests are routed to, request<br>
+handlers. And let’s tackle those next, because unless we have<br>
+these in place there isn’t much sense in doing anything with the<br>
+router for now.<br>
+New application part, new module - no surprise here. Let’s create<br>
+a module called requestHandlers, add a placeholder function<br>
+for every request handler, and export these as methods of the<br>
+module:<br>
+function start() {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+}<br>
+function upload() {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+This allows us to wire the request handlers into the router, giving<br>
+our router something to route to.<br>
+At this point we need to make a decision: do we hard-code<br>
+usage of the requestHandlers module into the router, or do we<br>
+want a bit more dependency injection? Although dependency<br>
+Building the application stack 31<br>
+injection, like every other pattern, shouldn’t be used only for the<br>
+sake of using it, in this case it makes sense to loosely couple the<br>
+router and its request handlers, and thus making the router really<br>
+reusable.<br>
+This means we need to pass the request handlers from our server<br>
+into our router, but this feels even more wrong, which is why we<br>
+should go the whole way and pass them to the server from our<br>
+main file, and passing it on to the router from there.<br>
+How are we going to pass them? Right now we have two<br>
+handlers, but in a real application, this number is going to<br>
+increase and vary, and we sure don’t want to fiddle around<br>
+mapping requests to handlers in the router anytime a new URL /<br>
+request handler is added. And having some if request == x then<br>
+call handler y in the router would be more than ugly.<br>
+A varying number of items, each mapped to a string (the requested<br>
+URL)? Well, sounds like an associative array would be a<br>
+perfect fit.<br>
+Well, this finding is slightly disappointed by the fact that JavaScript<br>
+doesn’t provide associative array - or does it? Turns out, it’s<br>
+actually objects that we want to use if we need an associative<br>
+array!<br>
+There’s a nice introduction to this at <a href="http://msdn.microsoft.com/enus/magazine/cc163419.aspx%E2%81%B7">http://msdn.microsoft.com/enus/magazine/cc163419.aspx⁷</a>,<br>
+let me quote the relevant part:<br>
+In C++ or C#, when weâ€™re talking about objects,<br>
+we’re referring to instances of classes or structs.<br>
+⁷http://msdn.microsoft.com/en-us/magazine/cc163419.aspx<br>
+Building the application stack 32<br>
+Objects have different properties and methods, depending<br>
+on which templates (that is, classes) they<br>
+are instantiated from. That’s not the case with JavaScript<br>
+objects. In JavaScript, objects are just collections of<br>
+name/value pairs - think of a JavaScript object as a<br>
+dictionary with string keys.<br>
+If JavaScript objects are just collections of name/value pairs, how<br>
+can they have methods? Well, the values can be strings, numbers<br>
+etc. - or functions!<br>
+Ok, now finally back to the code. We decided we want to pass<br>
+the list of requestHandlers as an object, and in order to achieve<br>
+loose coupling we want to inject this object into the route().<br>
+Let’s start with putting the object together in our main file<br>
+index.js:<br>
+var server = require(&quot;./server&quot;);<br>
+var router = require(&quot;./router&quot;);<br>
+var requestHandlers = require(&quot;./requestHandlers&quot;);<br>
+var handle = {}<br>
+handle[&quot;/&quot;] = requestHandlers.start;<br>
+handle[&quot;/start&quot;] = requestHandlers.start;<br>
+handle[&quot;/upload&quot;] = requestHandlers.upload;<br>
+server.start(router.route, handle);<br>
+Although handle is more of a “thing” (a collection of request<br>
+handlers), I propose we name it like a verb, because this will<br>
+result in a fluent expression in our router, as we will see soon.<br>
+Building the application stack 33<br>
+As you can see, it’s really simple to map different URLs to the<br>
+same request handler: by adding a key/value pair of ”/” and<br>
+requestHandlers.start, we can express in a nice and clean way<br>
+that not only requests to /start, but also requests to / shall be<br>
+handled by the start handler.<br>
+After defining our object, we pass it into the server as an<br>
+additional parameter. Let’s change our server.js to make use of<br>
+it:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route, handle) {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+route(handle, pathname);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello World”);<br>
+response.end();<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+We’ve added the handle parameter to our start() function, and<br>
+Building the application stack 34<br>
+pass the handle object on to the route() callback, as its first<br>
+parameter.<br>
+Let’s change the route() function accordingly, in ourrouter.js file:<br>
+function route(handle, pathname) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+if (typeof handle[pathname] === ‘function’) {<br>
+handle<a href="">pathname</a>;<br>
+} else {<br>
+console.log(“No request handler found for &quot; + pathname);<br>
+}<br>
+}<br>
+exports.route = route;<br>
+What we do here is, we check if a request handler for the given<br>
+pathname exists, and if it does, we simply call the according<br>
+function. Because we can access our request handler functions<br>
+from our object just as we would access an element of an<br>
+associative array, we have this nice fluent handle<a href="">pathname</a>;<br>
+expression I talked about earlier: “Please, handle this pathname”.<br>
+Ok, that’s all we need to wire server, router, and request handlers<br>
+together! When starting our application and requesting<br>
+<a href="http://localhost:8888/start%E2%81%B8">http://localhost:8888/start⁸</a> in our browser, we can prove that the<br>
+correct request handler was indeed called:<br>
+⁸http://localhost:8888/start<br>
+Building the application stack 35<br>
+Server has started.<br>
+Request for /start received.<br>
+About to route a request for /start<br>
+Request handler ‘start’ was called.<br>
+And opening <a href="http://localhost:8888/%E2%81%B9">http://localhost:8888/⁹</a> in our browser proves that<br>
+these requests, too, are indeed handled by the start request<br>
+handler:<br>
+Request for / received.<br>
+About to route a request for /<br>
+Request handler ‘start’ was called.<br>
+Making the request handlers respond<br>
+Beautiful. Now if only the request handlers could actually send<br>
+something back to the browser, that would be even better, right?<br>
+Remember, the “Hello World” your browser displays upon requesting<br>
+a page still comes from the onRequest function in our<br>
+server.js file.<br>
+“Handling request” means “answering requests” after all, thus we<br>
+need to enable our request handlers to speak with the browser<br>
+just like our onRequest function does.<br>
+How to not do it<br>
+The straight-forward approach we - as developers with a background<br>
+in PHP or Ruby - might want to follow is actually very<br>
+⁹http://localhost:8888/<br>
+Building the application stack 36<br>
+deceitful: it works like a charm, seems to make a lot of sense, and<br>
+then suddenly screws things up when we don’t expect it.<br>
+What I mean by “straight-forward approach” is this: make the<br>
+request handlers return() the content they want to display to the<br>
+user, and send this response data in the onRequest function back<br>
+to the user.<br>
+Let’s just do this, and then see why it’s not such an overly good<br>
+idea.<br>
+We start with the request handlers and make them return what<br>
+we would like to display in the browser. We need to change<br>
+requestHandlers.js to this:<br>
+function start() {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+return “Hello Start”;<br>
+}<br>
+function upload() {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+return “Hello Upload”;<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+Good. Likewise, the router needs to return to the server what<br>
+the request handlers return to him. We therefore need to edit<br>
+router.js like this:<br>
+Building the application stack 37<br>
+function route(handle, pathname) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+if (typeof handle[pathname] === ‘function’) {<br>
+return handle<a href="">pathname</a>;<br>
+} else {<br>
+console.log(“No request handler found for &quot; + pathname);<br>
+return “404 Not found”;<br>
+}<br>
+}<br>
+exports.route = route;<br>
+As you can see, we also return some text if the request could not<br>
+be routed.<br>
+And last but not least, we need to refactor our server to make<br>
+it respond to the browser with the content the request handlers<br>
+returned via the router, transforming server.js into:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route, handle) {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+var content = route(handle, pathname)<br>
+response.write(content);<br>
+response.end();<br>
+Building the application stack 38<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+If we start our rewritten application, everything works like a<br>
+charm: requesting <a href="http://localhost:8888/start%C2%B9%E2%81%B0">http://localhost:8888/start¹⁰</a> results in “Hello<br>
+Start” being displayed in the browser, requesting <a href="http://localhost:8888/upload%C2%B9%C2%B9">http://localhost:8888/upload¹¹</a><br>
+gives us “Hello Upload”, and <a href="http://localhost:8888/foo%C2%B9%C2%B2">http://localhost:8888/foo¹²</a> produces<br>
+“404 Not found”.<br>
+Ok, then why is that a problem? The short answer: because we<br>
+will run into problems if one the request handlers wants to make<br>
+use of a non-blocking operation in the future.<br>
+Let’s take a bit more time for the long answer.<br>
+Blocking and non-blocking<br>
+As said, the problems will arise when we include non-blocking<br>
+operations in the request handlers. But let’s talk about blocking<br>
+operations first, then about non-blocking operations.<br>
+And instead of trying to explain what “blocking” and “nonblocking”<br>
+means, let’s demonstrate ourselves what happens if we<br>
+add a blocking operation to our request handlers.<br>
+¹⁰http://localhost:8888/start<br>
+¹¹http://localhost:8888/upload<br>
+¹²http://localhost:8888/foo<br>
+Building the application stack 39<br>
+To do this, we will modify our start request handler to make it<br>
+wait 10 seconds before returning its “Hello Start” string. Because<br>
+there is no such thing as sleep() in JavaScript, we will use a clever<br>
+hack for that.<br>
+Please modify requestHandlers.js as follows:<br>
+function start() {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+function sleep(milliSeconds) {<br>
+var startTime = new Date().getTime();<br>
+while (new Date().getTime() &lt; startTime + milliSeconds);<br>
+}<br>
+sleep(10000);<br>
+return “Hello Start”;<br>
+}<br>
+function upload() {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+return “Hello Upload”;<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+Just to make clear what that does: when the function start() is<br>
+called, Node.js waits 10 seconds and only then returns “Hello<br>
+Start”. When calling upload(), it returns immediately, just like<br>
+before.<br>
+Building the application stack 40<br>
+(Of course, you should imagine that instead of sleeping for 10<br>
+seconds, there would be a real life blocking operation in start(),<br>
+like some sort of long-running computation.)<br>
+Let’s see what this change does.<br>
+As always, we need to restart our server. This time, I ask you<br>
+to follow a slightly complex “protocol” in order to see what<br>
+happens: First, open two browser windows or tabs. In the first<br>
+browser window, please enter <a href="http://localhost:8888/start%C2%B9%C2%B3">http://localhost:8888/start¹³</a> into<br>
+the address bar, but do not yet open this url!<br>
+In the second browser window’s address bar, enter <a href="http://localhost:8888/upload%C2%B9%E2%81%B4">http://localhost:8888/upload¹⁴</a>,<br>
+and again, please do not yet hit enter.<br>
+Now, do as follows: hit enter on the first window (“/start”), then<br>
+quickly change to the second window (“/upload”) and hit enter,<br>
+too.<br>
+What you will notice is this: The /start URL takes 10 seconds<br>
+to load, as we would expect. But the /upload URL also takes<br>
+10 seconds to load, although there is no sleep() in the according<br>
+request handler.<br>
+Why? Because start() contains a blocking operation. We already<br>
+talked about Node’s execution model - expensive operations are<br>
+ok, but we must take care to not block the Node.js process with<br>
+them. Instead, whenever expensive operations must be executed,<br>
+these must be put in the background, and their events must be<br>
+handled by the event loop.<br>
+And we will now see why the way we constructed the “request<br>
+handler response handling” in our application doesn’t allow us<br>
+¹³http://localhost:8888/start<br>
+¹⁴http://localhost:8888/upload<br>
+Building the application stack 41<br>
+to make proper use of non-blocking operations.<br>
+Once again, let’s try to experience the problem first-hand by<br>
+modifying our application.<br>
+We are going to use our start request handler for this again.<br>
+Please modify it to reflect the following (file requestHandlers.js):<br>
+var exec = require(“child_process”).exec;<br>
+function start() {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var content = “empty”;<br>
+exec(“ls -lah”, function (error, stdout, stderr) {<br>
+content = stdout;<br>
+});<br>
+return content;<br>
+}<br>
+function upload() {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+return “Hello Upload”;<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+As you can see, we just introduced a new Node.js module,child_-<br>
+process. We did so because it allows us to make use of a very<br>
+simple yet useful non-blocking operation: exec().<br>
+Building the application stack 42<br>
+What exec() does is, it executes a shell command from within<br>
+Node.js. In this example, we are going to use it to get a list of<br>
+all files in the current directory (“ls -lah”), allowing us to display<br>
+this list in the browser of a user requesting the /start URL.<br>
+What the code does is straightforward: create a new variable<br>
+content (with an initial value of “empty”), execute “ls -lah”, fill<br>
+the variable with the result, and return it.<br>
+As always, we will start our application, and visit <a href="http://localhost:8888/start%C2%B9%E2%81%B5">http://localhost:8888/start¹⁵</a>.<br>
+Which loads a beautiful web page that displays the string “empty”.<br>
+What’s going wrong here?<br>
+Well, as you may have already guessed, exec() does its magic in a<br>
+non-blocking fashion. That’s a good thing, because this way we<br>
+can execute very expensive shell operations (like, e.g., copying<br>
+huge files around or similar stuff) without forcing our application<br>
+into a full stop as the blocking sleep operation did.<br>
+(If you would like to prove this, replace “ls -lah” with a more<br>
+expensive operation like “find /”).<br>
+But we aren’t exactly happy with our elegant non-blocking<br>
+operation, when our browser doesn’t display its result, right?<br>
+Well, then, let’s fix it. And while we are at it, let’s try to<br>
+understand why the current architecture doesn’t work.<br>
+The problem is that exec(), in order to work non-blocking, makes<br>
+use of a callback function.<br>
+In our example, it’s an anonymous function which is passed as<br>
+the second parameter to the exec() function call:<br>
+¹⁵http://localhost:8888/start<br>
+Building the application stack 43<br>
+function (error, stdout, stderr) {<br>
+content = stdout;<br>
+}<br>
+And herein lies the root of our problem: our own code is executed<br>
+synchronous, which means that immediately after calling exec(),<br>
+Node.js continues to execute return content;. At this point,<br>
+content is still “empty”, due to the fact that the callback function<br>
+passed to exec() has not yet been called - because exec() operates<br>
+asynchronous.<br>
+Now, “ls -lah” is a very inexpensive and fast operation (unless<br>
+there are millions of files in the directory). Which is why the<br>
+callback is called relatively expeditious - but it nevertheless<br>
+happens asynchronously.<br>
+Thinking about a more expensive command makes this more<br>
+obvious: “find /” takes about 1 minute on my machine, but if<br>
+I replace “ls -lah” with “find /” in the request handler, I still<br>
+immediately receive an HTTP response when opening the /start<br>
+URL - it’s clear that exec() does something in the background,<br>
+while Node.js itself continues with the application, and we may<br>
+assume that the callback function we passed into exec() will be<br>
+called only when the “find /” command has finished running.<br>
+But how can we achieve our goal, i.e. showing the user a list of<br>
+files in the current directory?<br>
+Well, after learning how to not do it, let’s discuss how to make<br>
+our request handlers respond to browser requests the right way.<br>
+Building the application stack 44<br>
+Responding request handlers with<br>
+non-blocking operations<br>
+I’ve just used the phrase “the right way”. Dangerous stuff. Quite<br>
+often, there is no single “right way”.<br>
+But one possible solution for this is, as often with Node.js, to pass<br>
+functions around. Let’s examine this.<br>
+Right now, our application is able to transport the content (which<br>
+the request handlers would like to display to the user) from the<br>
+request handlers to the HTTP server by returning it up through<br>
+the layers of the application (request handler -&gt; router -&gt; server).<br>
+Our new approach is as follows: instead of bringing the content<br>
+to the server, we will bring the server to the content. To<br>
+be more precise, we will inject the response object (from our<br>
+server’s callback function onRequest()) through the router into<br>
+the request handlers. The handlers will then be able to use this<br>
+object’s functions to respond to requests themselves.<br>
+Enough explanation, here is the step by step recipe on how to<br>
+change our application.<br>
+Let’s start with our server.js:<br>
+Building the application stack 45<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route, handle) {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+route(handle, pathname, response);<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+Instead of expecting a return value from the route() function,<br>
+we pass it a third parameter, our response object. Furthermore,<br>
+we removed any response method calls from the onRequest()<br>
+handler, because we now expect route to take care of that.<br>
+Next comes router.js:<br>
+Building the application stack 46<br>
+function route(handle, pathname, response) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+if (typeof handle[pathname] === ‘function’) {<br>
+handle<a href="response">pathname</a>;<br>
+} else {<br>
+console.log(“No request handler found for &quot; + pathname);<br>
+response.writeHead(404, {“Content-Type”: “text/plain”});<br>
+response.write(“404 Not found”);<br>
+response.end();<br>
+}<br>
+}<br>
+exports.route = route;<br>
+Same pattern: instead of expecting a return value from our<br>
+request handlers, we pass the respond object on.<br>
+If no request handler can be used, we now take care of responding<br>
+with a proper “404” header and body ourselves.<br>
+And last but not least, we modify requestHandlers.js:<br>
+var exec = require(“child_process”).exec;<br>
+function start(response) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+exec(“ls -lah”, function (error, stdout, stderr) {<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(stdout);<br>
+response.end();<br>
+});<br>
+Building the application stack 47<br>
+}<br>
+function upload(response) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello Upload”);<br>
+response.end();<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+Our handler functions need to accept the response parameter,<br>
+and have to make use of them in order to respond to the request<br>
+directly.<br>
+The start handler will respond from within the anonymous<br>
+exec() callback, and the upload handler still simply replies with<br>
+“Hello Upload”, but now by making use of the response object.<br>
+If we start our application again (node index.js), this should work<br>
+as expected.<br>
+If you would like to prove that an expensive operation behind<br>
+/start will no longer block requests for /upload from answering<br>
+immediately, then modify your requestHandlers.js as follows:<br>
+Building the application stack 48<br>
+var exec = require(“child_process”).exec;<br>
+function start(response) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+exec(“find /”,<br>
+{ timeout: 10000, maxBuffer: 20000<em>1024 },<br>
+function (error, stdout, stderr) {<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(stdout);<br>
+response.end();<br>
+});<br>
+}<br>
+function upload(response) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello Upload”);<br>
+response.end();<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+This will make HTTP requests to <a href="http://localhost:8888/start%C2%B9%E2%81%B6">http://localhost:8888/start¹⁶</a><br>
+take at least 10 seconds, but requests to <a href="http://localhost:8888/upload%C2%B9%E2%81%B7">http://localhost:8888/upload¹⁷</a><br>
+will be answered immediately, even if /start is still computing.<br>
+¹⁶http://localhost:8888/start<br>
+¹⁷http://localhost:8888/upload<br>
+Building the application stack 49<br>
+Serving something useful<br>
+Until now, what we have done is all fine and dandy, but we<br>
+haven’t created any value for the customers of our awardwinning<br>
+website.<br>
+Our server, router, and request handlers are in place, thus now<br>
+we can begin to add content to our site which allows our users<br>
+to interact and walk through the use case of choosing a file,<br>
+uploading this file, and viewing the uploaded file in the browser.<br>
+For the sake of simplicity we will assume that only image files<br>
+are going to be uploaded and displayed through the application.<br>
+Ok, let’s take it step by step, but with most of the techniques and<br>
+principles of JavaScript explained by now, let’s at the same time<br>
+accelerate a bit. This author likes to hear himself talking way too<br>
+much anyways.<br>
+Here, step by step means roughly two steps: We will first look<br>
+at how to handle incoming POST requests (but not file uploads),<br>
+and in a second step, we will make use of an external Node.js<br>
+module for the file upload handling. I’ve chosen this approach<br>
+for two reasons.<br>
+First, handling basic POST requests is relatively simple with<br>
+Node.js, but still teaches us enough to be worth exercising it.<br>
+Second, handling file uploads (i.e., multipart POST requests) is<br>
+not simple with Node.js, and therefore is beyond the scope of<br>
+this tutorial, but using an external module is itself a lesson that<br>
+makes sense to be included in a beginner’s tutorial.<br>
+Building the application stack 50<br>
+Handling POST requests<br>
+Let’s keep this banally simple: We will present a textarea that<br>
+can be filled by the user and submitted to the server in a<br>
+POST request. Upon receiving and handling this request, we will<br>
+display the content of the textarea.<br>
+The HTML for this textarea form needs to be served by our<br>
+/start request handler, so let’s add it right away, in file requestHandlers.js:<br>
+function start(response) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+‘&lt;meta http-equiv=“Content-Type” content=“text/html; '+<br>
+'charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+‘&lt;form action=&quot;/upload&quot; method=“post”&gt;’+<br>
+‘&lt;textarea name=“text” rows=“20” cols=“60”&gt;&lt;/textarea&gt;’+<br>
+‘&lt;input type=“submit” value=“Submit text” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+Building the application stack 51<br>
+function upload(response) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“Hello Upload”);<br>
+response.end();<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+Now if this isn’t going to win the Webby Awards, then I don’t<br>
+know what could. You should see this very simple form when<br>
+requesting <a href="http://localhost:8888/start%C2%B9%E2%81%B8">http://localhost:8888/start¹⁸</a> in your browser. If not,<br>
+you probably didn’t restart the application.<br>
+I hear you: having view content right in the request handler<br>
+is ugly. However, I decided to not include that extra level of<br>
+abstraction (i.e., separating view and controller logic) in this<br>
+tutorial, because I think that it doesn’t teach us anything worth<br>
+knowing in the context of JavaScript or Node.js.<br>
+Let’s rather use the remaining screen space for a more interesting<br>
+problem, that is, handling the POST request that will hit our<br>
+/upload request handler when the user submits this form.<br>
+Now that we are becoming expert novices, we are no longer<br>
+surprised by the fact that handling POST data is done in a nonblocking<br>
+fashion, by using asynchronous callbacks.<br>
+Which makes sense, because POST requests can potentially be<br>
+very large - nothing stops the user from entering text that is<br>
+¹⁸http://localhost:8888/start<br>
+Building the application stack 52<br>
+multiple megabytes in size. Handling the whole bulk of data in<br>
+one go would result in a blocking operation.<br>
+To make the whole process non-blocking, Node.js serves our code<br>
+the POST data in small chunks, callbacks that are called upon<br>
+certain events. These events are data (an new chunk of POST<br>
+data arrives) and end (all chunks have been received).<br>
+We need to tell Node.js which functions to call back to when<br>
+these events occur. This is done by adding listeners to the request<br>
+object that is passed to our onRequest callback whenever an<br>
+HTTP request is received.<br>
+This basically looks like this:<br>
+request.addListener(“data”, function(chunk) {<br>
+// called when a new chunk of data was received<br>
+});<br>
+request.addListener(“end”, function() {<br>
+// called when all chunks of data have been received<br>
+});<br>
+The question arises where to implement this logic. We currently<br>
+can access the request object in our server only - we don’t pass<br>
+it on to the router and the request handlers, like we did with the<br>
+response object.<br>
+In my opinion, it’s an HTTP servers job to give the application<br>
+all the data from a requests it needs to do its job. Therefore, I<br>
+suggest we handle the POST data processing right in the server<br>
+and pass the final data on to the router and the request handlers,<br>
+which then can decide what to do with it.<br>
+Building the application stack 53<br>
+Thus, the idea is to put the data and end event callbacks in the<br>
+server, collecting all POST data chunks in the data callback, and<br>
+calling the router upon receiving the end event, while passing<br>
+the collected data chunks on to the router, which in turn passes<br>
+it on to the request handlers.<br>
+Here we go, starting with server.js:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route, handle) {<br>
+function onRequest(request, response) {<br>
+var postData = “”;<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+request.setEncoding(“utf8”);<br>
+request.addListener(“data”, function(postDataChunk) {<br>
+postData += postDataChunk;<br>
+console.log(“Received POST data chunk '”+<br>
+postDataChunk + “’.”);<br>
+});<br>
+request.addListener(“end”, function() {<br>
+route(handle, pathname, response, postData);<br>
+});<br>
+}<br>
+Building the application stack 54<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+We basically did three things here: First, we defined that we<br>
+expect the encoding of the received data to be UTF-8, we added<br>
+an event listener for the “data” event which step by step fills<br>
+our new postData variable whenever a new chunk of POST data<br>
+arrives, and we moved the call to our router into the end event<br>
+callback to make sure it’s only called when all POST data is<br>
+gathered. We also pass the POST data into the router, because<br>
+we are going to need it in our request handlers.<br>
+Adding the console logging on every chunk that is received<br>
+probably is a bad idea for production code (megabytes of POST<br>
+data, remember?), but makes sense to see what happens.<br>
+I suggest playing around with this a bit. Put small amounts of<br>
+text into the textarea as well as lots of text, and you will see that<br>
+for the larger texts, the data callback is indeed called multiple<br>
+times.<br>
+Let’s add even more awesome to our app. On the /upload page,<br>
+we will display the received content. To make this possible, we<br>
+need to pass the postData on to the request handlers, in router.js:<br>
+Building the application stack 55<br>
+function route(handle, pathname, response, postData) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+if (typeof handle[pathname] === ‘function’) {<br>
+handle[pathname](response, postData);<br>
+} else {<br>
+console.log(“No request handler found for &quot; + pathname);<br>
+response.writeHead(404, {“Content-Type”: “text/plain”});<br>
+response.write(“404 Not found”);<br>
+response.end();<br>
+}<br>
+}<br>
+exports.route = route;<br>
+And in requestHandlers.js, we include the data in our response<br>
+of the upload request handler:<br>
+function start(response, postData) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+‘&lt;meta http-equiv=“Content-Type” content=“text/html; '+<br>
+'charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+'&lt;form action=”/upload” method=“post”&gt;’+<br>
+‘&lt;textarea name=“text” rows=“20” cols=“60”&gt;&lt;/textarea&gt;’+<br>
+‘&lt;input type=“submit” value=“Submit text” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+Building the application stack 56<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+function upload(response, postData) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“You’ve sent: &quot; + postData);<br>
+response.end();<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+That’s it, we are now able to receive POST data and use it in our<br>
+request handlers.<br>
+One last thing for this topic: what we pass on to the router and the<br>
+request handlers is the complete body of our POST request. We<br>
+will probably want to consume the individual fields that make<br>
+up the POST data, in this case, the value of the text field.<br>
+We already read about the querystring module, which assists us<br>
+with this:<br>
+Building the application stack 57<br>
+var querystring = require(“querystring”);<br>
+function start(response, postData) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+‘&lt;meta http-equiv=“Content-Type” content=“text/html; '+<br>
+'charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+'&lt;form action=”/upload&quot; method=“post”&gt;’+<br>
+‘&lt;textarea name=“text” rows=“20” cols=“60”&gt;&lt;/textarea&gt;’+<br>
+‘&lt;input type=“submit” value=“Submit text” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+function upload(response, postData) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“You’ve sent the text: “+<br>
+querystring.parse(postData).text);<br>
+response.end();<br>
+}<br>
+Building the application stack 58<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+Well, for a beginner’s tutorial, that’s all there is to say about<br>
+handling POST data.<br>
+Handling file uploads<br>
+Let’s tackle our final use case. Our plan was to allow users to<br>
+upload an image file, and display the uploaded image in the<br>
+browser.<br>
+Back in the 90’s this would have qualified as a business model<br>
+for an IPO, today it must suffice to teach us two things: how to<br>
+install external Node.js libraries, and how to make use of them<br>
+in our own code.<br>
+The external module we are going to use is node-formidable by<br>
+Felix Geisendoerfer. It nicely abstracts away all the nasty details<br>
+of parsing incoming file data. At the end of the day, handling<br>
+incoming files is “only” about handling POST data - but the devil<br>
+really is in the details here, and using a ready-made solution<br>
+makes a lot of sense in this case.<br>
+In order to make use of Felix’ code, the according Node.js<br>
+module needs to be installed. Node.js ships with its own package<br>
+manager, dubbed NPM. It allows us to install external Node.js<br>
+modules in a very convenient fashion. Given a working Node.js<br>
+installation, it boils down to issuing<br>
+Building the application stack 59<br>
+npm install formidable<br>
+on our command line. If the following output ends with<br>
+npm info build Success: formidable@1.0.2<br>
+npm ok<br>
+then we are good to go.<br>
+The formidable module is now available to our own code - all<br>
+we need to do is requiring it just like one of the built-in modules<br>
+we used earlier:<br>
+var formidable = require(“formidable”);<br>
+The metaphor formidable uses is that of a form being submitted<br>
+via HTTP POST, making it parseable in Node.js. All we need<br>
+to do is create a new IncomingForm, which is an abstraction of<br>
+this submitted form, and which can then be used to parse the<br>
+request object of our HTTP server for the fields and files that<br>
+were submitted through this form.<br>
+The example code from the node-formidable project page shows<br>
+how the different parts play together:<br>
+Building the application stack 60<br>
+var formidable = require(‘formidable’),<br>
+http = require(‘http’),<br>
+sys = require(‘sys’);<br>
+http.createServer(function(req, res) {<br>
+if (req.url == ‘/upload’ &amp;&amp; req.method.toLowerCase() == ‘post’) {<br>
+// parse a file upload<br>
+var form = new formidable.IncomingForm();<br>
+form.parse(req, function(error, fields, files) {<br>
+res.writeHead(200, {‘content-type’: ‘text/plain’});<br>
+res.write(‘received upload:\n\n’);<br>
+res.end(sys.inspect({fields: fields, files: files}));<br>
+});<br>
+return;<br>
+}<br>
+// show a file upload form<br>
+res.writeHead(200, {‘content-type’: ‘text/html’});<br>
+res.end(<br>
+'&lt;form action=”/upload” enctype=“multipart/form-data” '+<br>
+‘method=“post”&gt;’+<br>
+‘&lt;input type=“text” name=“title”&gt;&lt;br&gt;’+<br>
+‘&lt;input type=“file” name=“upload” multiple=“multiple”&gt;&lt;br&gt;’+<br>
+‘&lt;input type=“submit” value=“Upload”&gt;’+<br>
+‘&lt;/form&gt;’<br>
+);<br>
+}).listen(8888);<br>
+If we put this code into a file and execute it through node, we<br>
+are able to submit a simple form, including a file upload, and see<br>
+how the files object, which is passed to the callback defined in<br>
+Building the application stack 61<br>
+the form.parse call, is structured:<br>
+received upload:<br>
+{ fields: { title: ‘Hello World’ },<br>
+files:<br>
+{ upload:<br>
+{ size: 1558,<br>
+path: ‘/tmp/1c747974a27a6292743669e91f29350b’,<br>
+name: ‘us-flag.png’,<br>
+type: ‘image/png’,<br>
+lastModifiedDate: Tue, 21 Jun 2011 07:02:41 GMT,<br>
+_writeStream: [Object],<br>
+length: [Getter],<br>
+filename: [Getter],<br>
+mime: [Getter] } } }<br>
+In order to make our use case happen, what we need to do is<br>
+to include the form-parsing logic of formidable into our code<br>
+structure, plus we will need to find out how to serve the content<br>
+of the uploaded file (which is saved into the /tmp folder) to a<br>
+requesting browser.<br>
+Let’s tackle the latter one first: if there is an image file on our<br>
+local hardrive, how do we serve it to a requesting browser?<br>
+We are obviously going to read the contents of this file into our<br>
+Node.js server, and unsurprisingly, there is a module for that -<br>
+it’s called fs.<br>
+Let’s add another request handler for the URL /show, which will<br>
+hardcodingly display the contents of the file /tmp/test.png. It of<br>
+Building the application stack 62<br>
+course makes a lot of sense to save a real png image file to this<br>
+location first.<br>
+We are going to modify requestHandlers.js as follows:<br>
+var querystring = require(“querystring”),<br>
+fs = require(“fs”);<br>
+function start(response, postData) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+'&lt;meta http-equiv=“Content-Type” '+<br>
+‘content=“text/html; charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+‘&lt;form action=&quot;/upload&quot; method=“post”&gt;’+<br>
+‘&lt;textarea name=“text” rows=“20” cols=“60”&gt;&lt;/textarea&gt;’+<br>
+‘&lt;input type=“submit” value=“Submit text” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+function upload(response, postData) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+Building the application stack 63<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“You’ve sent the text: “+<br>
+querystring.parse(postData).text);<br>
+response.end();<br>
+}<br>
+function show(response, postData) {<br>
+console.log(“Request handler ‘show’ was called.”);<br>
+fs.readFile(”/tmp/test.png”, “binary”, function(error, file) {<br>
+if (error) {<br>
+response.writeHead(500, {“Content-Type”: “text/plain”});<br>
+response.write(error + “\n”);<br>
+response.end();<br>
+} else {<br>
+response.writeHead(200, {“Content-Type”: “image/png”});<br>
+response.write(file, “binary”);<br>
+response.end();<br>
+}<br>
+});<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+exports.show = show;<br>
+We also need to map this new request handler to the URL /show<br>
+in file index.js:<br>
+Building the application stack 64<br>
+var server = require(&quot;./server&quot;);<br>
+var router = require(&quot;./router&quot;);<br>
+var requestHandlers = require(&quot;./requestHandlers&quot;);<br>
+var handle = {}<br>
+handle[&quot;/&quot;] = requestHandlers.start;<br>
+handle[&quot;/start&quot;] = requestHandlers.start;<br>
+handle[&quot;/upload&quot;] = requestHandlers.upload;<br>
+handle[&quot;/show&quot;] = requestHandlers.show;<br>
+server.start(router.route, handle);<br>
+By restarting the server and opening <a href="http://localhost:8888/show%C2%B9%E2%81%B9">http://localhost:8888/show¹⁹</a><br>
+in the browser, the image file saved at /tmp/test.png should be<br>
+displayed.<br>
+Fine. All we need to do now is<br>
+• add a file upload element to the form which is served at<br>
+/start,<br>
+• integrate node-formidable into the upload request handler,<br>
+in order to save the uploaded file to /tmp/test.png,<br>
+• embed the uploaded image into the HTML output of the<br>
+/upload URL.<br>
+Step 1 is simple. We need to add an encoding type of multipart/formdata<br>
+to our HTML form, remove the textarea, add a file upload<br>
+input field, and change the submit button text to “Upload file”.<br>
+Let’s do just that in file requestHandlers.js:<br>
+¹⁹http://localhost:8888/show<br>
+Building the application stack 65<br>
+var querystring = require(“querystring”),<br>
+fs = require(“fs”);<br>
+function start(response, postData) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+'&lt;meta http-equiv=“Content-Type” '+<br>
+‘content=“text/html; charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+'&lt;form action=&quot;/upload&quot; enctype=“multipart/form-data” '+<br>
+‘method=“post”&gt;’+<br>
+‘&lt;input type=“file” name=“upload”&gt;’+<br>
+‘&lt;input type=“submit” value=“Upload file” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+function upload(response, postData) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+response.writeHead(200, {“Content-Type”: “text/plain”});<br>
+response.write(“You’ve sent the text: “+<br>
+querystring.parse(postData).text);<br>
+response.end();<br>
+Building the application stack 66<br>
+}<br>
+function show(response, postData) {<br>
+console.log(“Request handler ‘show’ was called.”);<br>
+fs.readFile(”/tmp/test.png”, “binary”, function(error, file) {<br>
+if (error) {<br>
+response.writeHead(500, {“Content-Type”: “text/plain”});<br>
+response.write(error + “\n”);<br>
+response.end();<br>
+} else {<br>
+response.writeHead(200, {“Content-Type”: “image/png”});<br>
+response.write(file, “binary”);<br>
+response.end();<br>
+}<br>
+});<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+exports.show = show;<br>
+Great. The next step is a bit more complex of course. The first<br>
+problem is: we want to handle the file upload in our upload<br>
+request handler, and there, we will need to pass the request<br>
+object to the form.parse call of node-formidable.<br>
+But all we have is the response object and the postData array. Sad<br>
+panda. Looks like we will have to pass the request object all the<br>
+way from the server to the router to the request handler. There<br>
+may be more elegant solutions, but this approach should do the<br>
+job for now.<br>
+Building the application stack 67<br>
+And while we are at it, let’s remove the whole postData stuff<br>
+in our server and request handlers - we won’t need it for<br>
+handling the file upload, and it even raises a problem: we already<br>
+“consumed” the data events of the request object in the server,<br>
+which means that form.parse, which also needs to consume those<br>
+events, wouldn’t receive any more data from them (because<br>
+Node.js doesn’t buffer any data).<br>
+Let’s start with server.js - we remove the postData handling<br>
+and the request.setEncoding line (which is going to be handled<br>
+by node-formidable itself), and we pass request to the router<br>
+instead:<br>
+var http = require(“http”);<br>
+var url = require(“url”);<br>
+function start(route, handle) {<br>
+function onRequest(request, response) {<br>
+var pathname = url.parse(request.url).pathname;<br>
+console.log(“Request for &quot; + pathname + &quot; received.”);<br>
+route(handle, pathname, response, request);<br>
+}<br>
+http.createServer(onRequest).listen(8888);<br>
+console.log(“Server has started.”);<br>
+}<br>
+exports.start = start;<br>
+Next comes router.js - we don’t need to pass postData on<br>
+anymore, and instead pass request:<br>
+Building the application stack 68<br>
+function route(handle, pathname, response, request) {<br>
+console.log(“About to route a request for &quot; + pathname);<br>
+if (typeof handle[pathname] === ‘function’) {<br>
+handle[pathname](response, request);<br>
+} else {<br>
+console.log(“No request handler found for &quot; + pathname);<br>
+response.writeHead(404, {“Content-Type”: “text/html”});<br>
+response.write(“404 Not found”);<br>
+response.end();<br>
+}<br>
+}<br>
+exports.route = route;<br>
+Now, the request object can be used in our upload request<br>
+handler function. node-formidable will handle the details of<br>
+saving the uploaded file to a local file within /tmp, but we need<br>
+to make sure that this file is renamed to /tmp/test.png ourselves.<br>
+Yes, we keep things really simple and assume that only PNG<br>
+images will be uploaded.<br>
+There is a bit of extra-complexity in the rename logic: the<br>
+Windows implementation of node doesn’t like it when you try to<br>
+rename a file onto the position of an existing file, which is why<br>
+we need to delete the file in case of an error.<br>
+Let’s put the pieces of managing the uploaded file and renaming<br>
+it together now, in file requestHandlers.js:<br>
+Building the application stack 69<br>
+var querystring = require(“querystring”),<br>
+fs = require(“fs”),<br>
+formidable = require(“formidable”);<br>
+function start(response) {<br>
+console.log(“Request handler ‘start’ was called.”);<br>
+var body = ‘&lt;html&gt;’+<br>
+‘&lt;head&gt;’+<br>
+'&lt;meta http-equiv=“Content-Type” '+<br>
+‘content=“text/html; charset=UTF-8” /&gt;’+<br>
+‘&lt;/head&gt;’+<br>
+‘&lt;body&gt;’+<br>
+'&lt;form action=”/upload” enctype=“multipart/form-data” '+<br>
+‘method=“post”&gt;’+<br>
+‘&lt;input type=“file” name=“upload” multiple=“multiple”&gt;’+<br>
+‘&lt;input type=“submit” value=“Upload file” /&gt;’+<br>
+‘&lt;/form&gt;’+<br>
+‘&lt;/body&gt;’+<br>
+‘&lt;/html&gt;’;<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(body);<br>
+response.end();<br>
+}<br>
+function upload(response, request) {<br>
+console.log(“Request handler ‘upload’ was called.”);<br>
+var form = new formidable.IncomingForm();<br>
+console.log(“about to parse”);<br>
+Building the application stack 70<br>
+form.parse(request, function(error, fields, files) {<br>
+console.log(“parsing done”);<br>
+/</em> Possible error on Windows systems:<br>
+tried to rename to an already existing file */<br>
+fs.rename(files.upload.path, “/tmp/test.png”, function(error) {<br>
+if (error) {<br>
+fs.unlink(”/tmp/test.png”);<br>
+fs.rename(files.upload.path, “/tmp/test.png”);<br>
+}<br>
+});<br>
+response.writeHead(200, {“Content-Type”: “text/html”});<br>
+response.write(“received image:&lt;br/&gt;”);<br>
+response.write(”&lt;img src=’/show’ /&gt;”);<br>
+response.end();<br>
+});<br>
+}<br>
+function show(response) {<br>
+console.log(“Request handler ‘show’ was called.”);<br>
+fs.readFile(”/tmp/test.png”, “binary”, function(error, file) {<br>
+if(error) {<br>
+response.writeHead(500, {“Content-Type”: “text/plain”});<br>
+response.write(error + “\n”);<br>
+response.end();<br>
+} else {<br>
+response.writeHead(200, {“Content-Type”: “image/png”});<br>
+response.write(file, “binary”);<br>
+response.end();<br>
+}<br>
+});<br>
+Building the application stack 71<br>
+}<br>
+exports.start = start;<br>
+exports.upload = upload;<br>
+exports.show = show;<br>
+And that’s it. Restart the server, and the complete use case will be<br>
+available. Select a local PNG image from your hardrive, upload<br>
+it to the server, and have it displayed in the web page.<br>
+Conclusion and outlook<br>
+Congratulations, our mission is accomplished! We wrote a simple<br>
+yet full-fledged Node.js web application. We talked about<br>
+server-side JavaScript, functional programming, blocking and<br>
+non-blocking operations, callbacks, events, custom, internal and<br>
+external modules, and a lot more.<br>
+Of course, there’s a lot of stuff we did not talk about: how to<br>
+talk to a database, how to write unit tests, how to create external<br>
+modules that are installable via NPM, or even something simple<br>
+like how to handle GET requests.</p>
+
+</body></html>
